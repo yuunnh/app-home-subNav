@@ -3,7 +3,7 @@ import svgPaths from "./svg-gjwptaj59w";
 function Header() {
   return (
     <div className="content-stretch flex items-start relative shrink-0 w-[328px]" data-name="header">
-      <p className="css-ew64yg font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333] text-[18px] tracking-[0.27px]">{`취준 미션을 수행해 보세요 🚩 `}</p>
+      <p className="css-ew64yg font-bold leading-[25px] relative shrink-0 text-[#333] text-[18px] tracking-[0.27px]">{`취준 미션을 수행해 보세요 🚩 `}</p>
     </div>
   );
 }
@@ -13,7 +13,7 @@ function Frame() {
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center size-full">
         <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center pl-[4px] pr-[8px] relative w-full">
-          <p className="css-ew64yg font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[#999] text-[13px] tracking-[0.13px]">진행 중인 미션 ⚡️</p>
+          <p className="css-ew64yg font-normal leading-[20px] relative shrink-0 text-[#999] text-[13px] tracking-[0.13px]">진행 중인 미션 ⚡️</p>
         </div>
       </div>
     </div>
@@ -24,8 +24,8 @@ function Frame1() {
   return (
     <div className="flex-[1_0_0] min-h-px min-w-px relative">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[2px] items-start justify-center relative w-full">
-        <p className="css-ew64yg font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.21px]">{`면접, 이것만은 알고 가자!   `}</p>
-        <p className="css-ew64yg font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] tracking-[0.12px]">필수 면접 질문 200제</p>
+        <p className="css-ew64yg font-bold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.21px]">{`면접, 이것만은 알고 가자!   `}</p>
+        <p className="css-ew64yg font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] tracking-[0.12px]">필수 면접 질문 200제</p>
       </div>
     </div>
   );
@@ -34,7 +34,7 @@ function Frame1() {
 function Frame3() {
   return (
     <div className="h-[18px] relative shrink-0 w-[56px]">
-      <div className="absolute flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] left-[28px] text-[12px] text-center text-white top-[9px] tracking-[0.12px] translate-x-[-50%] translate-y-[-50%] w-[56px]">
+      <div className="absolute flex flex-col font-normal justify-center leading-[0] left-[28px] text-[12px] text-center text-white top-[9px] tracking-[0.12px] translate-x-[-50%] translate-y-[-50%] w-[56px]">
         <p className="css-4hzbpn leading-[18px]">PDF 받기</p>
       </div>
     </div>
@@ -69,8 +69,8 @@ function Frame2() {
   return (
     <div className="flex-[1_0_0] min-h-px min-w-px relative">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[2px] items-start justify-center relative w-full">
-        <p className="css-g0mm18 font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] min-w-full overflow-hidden relative shrink-0 text-[#333] text-[14px] text-ellipsis tracking-[0.21px] w-[min-content]">내 돈 내고 듣기는 부담스러운 교육</p>
-        <p className="css-ew64yg font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] tracking-[0.12px]">지원금 30초 확인</p>
+        <p className="css-g0mm18 font-bold leading-[19px] min-w-full overflow-hidden relative shrink-0 text-[#333] text-[14px] text-ellipsis tracking-[0.21px] w-[min-content]">내 돈 내고 듣기는 부담스러운 교육</p>
+        <p className="css-ew64yg font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] tracking-[0.12px]">지원금 30초 확인</p>
       </div>
     </div>
   );
@@ -80,7 +80,7 @@ function Button1() {
   return (
     <div className="bg-[#ff6813] h-[32px] relative rounded-[4px] shrink-0 w-[84px]" data-name="button">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center px-[8px] py-[7px] relative size-full">
-        <div className="css-g0mm18 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-white tracking-[0.12px]">
+        <div className="css-g0mm18 flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-white tracking-[0.12px]">
           <p className="css-ew64yg leading-[18px]">{`무료 진단 `}</p>
         </div>
       </div>
@@ -145,7 +145,7 @@ function Button2() {
     <div className="bg-[#fff6f0] content-stretch flex gap-[4px] h-[32px] items-center justify-center px-[8px] py-[7px] relative rounded-[4px] shrink-0 w-[328px]" data-name="button">
       <div aria-hidden="true" className="absolute border border-[#fed2ba] border-solid inset-0 pointer-events-none rounded-[4px]" />
       <FunctionIcNotification />
-      <div className="css-g0mm18 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#ff6813] text-[12px] tracking-[0.12px]">
+      <div className="css-g0mm18 flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#ff6813] text-[12px] tracking-[0.12px]">
         <p className="css-ew64yg leading-[18px]">{`다음 미션 알림받기 `}</p>
       </div>
     </div>

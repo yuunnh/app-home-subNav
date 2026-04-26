@@ -186,6 +186,7 @@
 
 html {
   font-size: var(--font-size);
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

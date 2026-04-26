@@ -24,7 +24,7 @@ export default function Button() {
       <div className="flex flex-row items-center justify-center size-full">
         <div className="box-border content-stretch flex gap-[4px] items-center justify-center px-[8px] py-[7px] relative size-full">
           <FunctionIcNotificationInactive />
-          <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#777777] text-[12px] text-nowrap tracking-[0.12px]">
+          <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#777777] text-[12px] text-nowrap tracking-[0.12px]">
             <p className="leading-[18px] whitespace-pre">{`알림 취소하기 `}</p>
           </div>
         </div>

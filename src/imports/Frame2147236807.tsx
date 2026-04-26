@@ -66,7 +66,7 @@ function Container5() {
 function Paragraph() {
   return (
     <div className="absolute h-[19px] left-[20px] top-[80px] w-[49.242px]" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] left-0 text-[14px] text-white top-0 tracking-[0.21px] whitespace-nowrap">앵커리어</p>
+      <p className="absolute font-bold leading-[19px] left-0 text-[14px] text-white top-0 tracking-[0.21px] whitespace-nowrap">앵커리어</p>
     </div>
   );
 }
@@ -74,7 +74,7 @@ function Paragraph() {
 function Paragraph1() {
   return (
     <div className="h-[27px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[27px] left-0 text-[20px] text-white top-[-0.5px] tracking-[0.3px] whitespace-nowrap">자소설닷컴</p>
+      <p className="absolute font-bold leading-[27px] left-0 text-[20px] text-white top-[-0.5px] tracking-[0.3px] whitespace-nowrap">자소설닷컴</p>
     </div>
   );
 }
@@ -83,7 +83,7 @@ function Container6() {
   return (
     <div className="absolute content-stretch flex flex-col h-[54px] items-start left-[20px] top-[103px] w-[132.938px]" data-name="Container">
       <Paragraph1 />
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[27px] leading-[27px] relative shrink-0 text-[20px] text-white tracking-[0.3px] w-[133px]">디자인 직무 채용</p>
+      <p className="font-bold h-[27px] leading-[27px] relative shrink-0 text-[20px] text-white tracking-[0.3px] w-[133px]">디자인 직무 채용</p>
     </div>
   );
 }
@@ -91,7 +91,7 @@ function Container6() {
 function Paragraph2() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">2023.02.28 ~ 2023.03.27</p>
+      <p className="absolute font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">2023.02.28 ~ 2023.03.27</p>
     </div>
   );
 }
@@ -99,7 +99,7 @@ function Paragraph2() {
 function Paragraph3() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">#자소설닷컴 #프로덕트디자인</p>
+      <p className="absolute font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">#자소설닷컴 #프로덕트디자인</p>
     </div>
   );
 }
@@ -326,7 +326,7 @@ function Container1() {
 function Paragraph4() {
   return (
     <div className="absolute h-[18px] left-[12px] top-[7px] w-[29.57px]" data-name="Paragraph">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-[15px] text-[#333] text-[12px] text-center top-[-0.5px] tracking-[0.12px] whitespace-nowrap">15/18</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[18px] left-[15px] text-[#333] text-[12px] text-center top-[-0.5px] tracking-[0.12px] whitespace-nowrap">15/18</p>
     </div>
   );
 }
@@ -392,8 +392,8 @@ function Container() {
 function Container26() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-[121px]" data-name="Container">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
     </div>
   );
 }
@@ -455,7 +455,7 @@ function Frame3() {
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex items-center justify-center px-[12px] relative size-full">
-          <p className="flex-[1_0_0] font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px]">{`👀 새로운 발견 `}</p>
+          <p className="flex-[1_0_0] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px]">{`👀 새로운 발견 `}</p>
         </div>
       </div>
     </div>
@@ -492,7 +492,7 @@ function Container28() {
 function Desc() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">{`스낵 챗 발견 `}</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">{`스낵 챗 발견 `}</p>
     </div>
   );
 }
@@ -561,7 +561,7 @@ function Container30() {
 function Desc1() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
     </div>
   );
 }
@@ -607,7 +607,7 @@ function Container32() {
 function Desc2() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
     </div>
   );
 }
@@ -668,7 +668,7 @@ function Container34() {
 function Desc3() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">SK그룹 SKALA</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">SK그룹 SKALA</p>
     </div>
   );
 }
@@ -709,7 +709,7 @@ function Container36() {
 function Desc4() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
     </div>
   );
 }
@@ -734,7 +734,7 @@ function Container35() {
 function Desc5() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
     </div>
   );
 }
@@ -777,7 +777,7 @@ function Container39() {
 function Desc6() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
     </div>
   );
 }

@@ -51,10 +51,10 @@ function SubBanner() {
                 transition: { duration: 0.3, ease: "easeOut" }
               }}
             >
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">👀 이 공고 어때요</p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">👀 이 공고 어때요</p>
               <div className="content-stretch flex h-[20px] items-center justify-center px-[6px] relative rounded-[4px] shrink-0">
                 <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[4px]" />
-                <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#dddddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
+                <p className="font-normal leading-[18px] relative shrink-0 text-[#dddddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
               </div>
             </motion.div>
 
@@ -107,8 +107,8 @@ function SubBanner() {
               />
 
               <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-[121px] z-0">
-                <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
-                <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
+                <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
+                <p className="font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
               </div>
               <div className="h-[54px] relative rounded-[8px] shrink-0 w-[72px] z-0">
                 <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgLogo} />
@@ -147,8 +147,8 @@ function SubBanner() {
               </motion.div>
               {/* 텍스트 */}
               <div className="flex items-center gap-[8px]">
-                <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px]">신한은행</p>
-                <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px]">2024년 기술직 공개 채용</p>
+                <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px]">신한은행</p>
+                <p className="font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px]">2024년 기술직 공개 채용</p>
               </div>
             </motion.div>
             {/* 로고 */}
@@ -188,12 +188,12 @@ function SectionAds() {
               <circle cx="26" cy="2" fill="#777777" r="2" />
             </svg>
           </div>
-          <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] left-[20px] text-white text-[14px] top-[80px] tracking-[0.21px]">앵커리어</p>
-          <div className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[0] left-[20px] text-white text-[20px] top-[103px] tracking-[0.3px]">
+          <p className="absolute font-bold leading-[19px] left-[20px] text-white text-[14px] top-[80px] tracking-[0.21px]">앵커리어</p>
+          <div className="absolute font-bold leading-[0] left-[20px] text-white text-[20px] top-[103px] tracking-[0.3px]">
             <p className="leading-[27px] mb-0">자소설닷컴</p>
             <p className="leading-[27px]">디자인 직무 채용</p>
           </div>
-          <div className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[0] left-[20px] text-white text-[13px] top-[169px] tracking-[0.13px]">
+          <div className="absolute font-normal leading-[0] left-[20px] text-white text-[13px] top-[169px] tracking-[0.13px]">
             <p className="leading-[20px] mb-0">2023.02.28 ~ 2023.03.27</p>
             <p className="leading-[20px]">#자소설닷컴 #프로덕트디자인</p>
           </div>
@@ -251,7 +251,7 @@ function SectionAds() {
         </div>
         {/* Navigator badge */}
         <div className="absolute bg-[rgba(255,255,255,0.72)] h-[32px] left-[276px] rounded-[16px] shadow-[0px_2px_4px_0px_rgba(0,0,0,0.08)] top-[192px] w-[71.57px]">
-          <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-[27px] text-[#333] text-[12px] text-center top-[7px] tracking-[0.12px] whitespace-nowrap">15/18</p>
+          <p className="-translate-x-1/2 absolute font-normal leading-[18px] left-[27px] text-[#333] text-[12px] text-center top-[7px] tracking-[0.12px] whitespace-nowrap">15/18</p>
           <div className="absolute overflow-clip rounded-[4px] size-[20px] left-[45.57px] top-[6px]">
             <div className="absolute inset-[16.67%] overflow-clip">
               <div className="absolute inset-[23.48%_33.33%_23.48%_34.26%]">
@@ -280,7 +280,7 @@ function SectionAds() {
               </div>
             </div>
             <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">SK그룹 SKALA</p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">SK그룹 SKALA</p>
             </div>
           </div>
         </div>
@@ -295,14 +295,14 @@ function SectionAds() {
               <div aria-hidden="true" className="absolute border-[#eee] border-[0.6px] border-solid inset-0 pointer-events-none rounded-[4px]" />
             </div>
             <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
             </div>
           </div>
         </div>
         <div className="bg-gradient-to-l content-stretch flex from-[#f5f5f5] h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0 to-[#fafafa]">
           <div className="content-stretch flex items-center overflow-clip relative rounded-[4px] shrink-0">
             <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
             </div>
           </div>
         </div>
@@ -317,7 +317,7 @@ function SectionAds() {
               <div aria-hidden="true" className="absolute border-[#eee] border-[0.6px] border-solid inset-0 pointer-events-none rounded-[4px]" />
             </div>
             <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">CJ제일제당 </p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">CJ제일제당 </p>
             </div>
           </div>
         </div>
@@ -334,116 +334,39 @@ function TopList() {
       <div className="relative shrink-0 w-full">
         <div className="flex flex-row items-center justify-center size-full">
           <div className="content-stretch flex items-center justify-center px-[12px] relative size-full">
-            <p className="flex-[1_0_0] font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px] pl-[4px] pr-[0px] py-[0px]">{`👀 새로운 발견 `}</p>
+            <p className="flex-[1_0_0] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px] pl-[4px] pr-[0px] py-[0px]">{`👀 새로운 발견 `}</p>
           </div>
         </div>
       </div>
-      <div className="content-stretch flex gap-[8px] h-[48px] items-start overflow-x-auto px-[8px] relative shrink-0 w-[360px]" style={{ scrollbarWidth: 'none' }}>
-        {/* 스낵 챗 발견 */}
-        <div className="bg-white content-stretch flex gap-[12px] h-[48px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 group cursor-pointer hover:bg-[#f9f9f9] transition-colors">
-          <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[6px]" />
-          <div className="content-stretch flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
-            <div className="bg-gradient-to-b content-stretch flex flex-col from-[#f2f3ff] items-center justify-center overflow-clip p-[8px] relative rounded-[18px] shrink-0 size-[36px] to-[#f9f2ff]">
-              <div className="overflow-clip relative shrink-0 size-[20px]">
-                <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[18.236px] left-[calc(50%+0.16px)] top-[calc(50%-0.01px)] w-[16.988px]">
-                  <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.9877 18.2365">
-                    <path d={navSvgPaths.pf92d980} fill="url(#paint0_snack)" />
-                    <path d={navSvgPaths.pf04df00} fill="url(#paint1_snack)" />
-                    <defs>
-                      <linearGradient gradientUnits="userSpaceOnUse" id="paint0_snack" x1="8.49385" x2="8.49385" y1="0" y2="18.2365">
-                        <stop stopColor="#8B9AFC" />
-                        <stop offset="1" stopColor="#C192F1" />
-                      </linearGradient>
-                      <linearGradient gradientUnits="userSpaceOnUse" id="paint1_snack" x1="8.49385" x2="8.49385" y1="0" y2="18.2365">
-                        <stop stopColor="#8B9AFC" />
-                        <stop offset="1" stopColor="#C192F1" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">{`스낵 챗 발견 `}</p>
-            </div>
+      <div className="flex gap-[8px] items-start overflow-x-auto px-[8px] relative shrink-0 w-full" style={{ scrollbarWidth: 'none' }}>
+        {/* 스낵 챗 발견 — 보라 */}
+        <div className="bg-[#F2F3FF] flex gap-[4px] items-center pt-[10px] pb-[10px] pl-[8px] pr-[20px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
+          <div className="bg-white flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
+            <img src="/src/assets/ic_swipeCard_default_fill.svg" width={20} height={20} alt="" />
           </div>
-          <div className="overflow-clip relative shrink-0 size-[16px]">
-            <div className="absolute inset-[23.48%_33.33%_23.48%_34.26%]">
-              <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 5.18533 8.48533">
-                <path d={navSvgPaths.p13a1fe00} fill="#999999" />
-              </svg>
-            </div>
+          <div className="flex flex-col pl-[4px]">
+            <p className="font-bold leading-[19px] text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">스낵 챗 발견</p>
+            <p className="font-normal leading-[17px] text-[#777] text-[12px] whitespace-nowrap">지금 무슨 얘기해?</p>
           </div>
         </div>
-        {/* 채용달력 */}
-        <div className="bg-white content-stretch flex gap-[12px] h-[48px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 group cursor-pointer hover:bg-[#f9f9f9] transition-colors">
-          <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[6px]" />
-          <div className="content-stretch flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
-            <div className="bg-gradient-to-b content-stretch flex flex-col from-[#fff3f9] items-center justify-center overflow-clip p-[8px] relative rounded-[18px] shrink-0 size-[36px] to-[#fff3f4]">
-              <div className="overflow-clip relative shrink-0 size-[20px]">
-                <div className="absolute inset-[4.17%_8.33%_12.5%_8.33%]">
-                  <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16.6667 16.6667">
-                    <path d={navSvgPaths.p1eb70680} fill="#FF87B9" />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
-            </div>
+        {/* AI 인기 토픽 — 핑크 */}
+        <div className="bg-[#FFF3F9] flex gap-[4px] items-center pt-[10px] pb-[10px] pl-[8px] pr-[20px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
+          <div className="bg-white flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
+            <img src="/src/assets/ic_robot_default_line.svg" width={20} height={20} alt="" />
           </div>
-          <div className="overflow-clip relative shrink-0 size-[16px]">
-            <div className="absolute inset-[23.48%_33.33%_23.48%_34.26%]">
-              <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 5.18533 8.48533">
-                <path d={navSvgPaths.p13a1fe00} fill="#999999" />
-              </svg>
-            </div>
+          <div className="flex flex-col pl-[4px]">
+            <p className="font-bold leading-[19px] text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
+            <p className="font-normal leading-[17px] text-[#777] text-[12px] whitespace-nowrap">요즘 핫한 대화 주제</p>
           </div>
         </div>
-        {/* AI 인기 토픽 */}
-        <div className="bg-white content-stretch flex gap-[12px] h-[48px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 group cursor-pointer hover:bg-[#f9f9f9] transition-colors">
-          <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[6px]" />
-          <div className="content-stretch flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
-            <div className="bg-gradient-to-b content-stretch flex flex-col from-[#daf5f7] items-center justify-center overflow-clip p-[8px] relative rounded-[18px] shrink-0 size-[36px] to-[#e8f5ff]">
-              <div className="overflow-clip relative shrink-0 size-[20px]">
-                <div className="absolute h-[17.417px] left-[3px] top-[1.75px] w-[15.334px]">
-                  <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 15.3337 17.417">
-                    <path d={navSvgPaths.p27b9f6f2} fill="url(#paint0_ai)" />
-                    <path d={navSvgPaths.p32eac000} fill="url(#paint1_ai)" />
-                    <path d={navSvgPaths.p3a5fae00} fill="url(#paint2_ai)" />
-                    <path d={navSvgPaths.p208a480} fill="url(#paint3_ai)" />
-                    <defs>
-                      <linearGradient gradientUnits="userSpaceOnUse" id="paint0_ai" x1="7.66683" x2="7.66683" y1="0" y2="17.417">
-                        <stop stopColor="#1ABDD0" />
-                        <stop offset="1" stopColor="#57A8FF" />
-                      </linearGradient>
-                      <linearGradient gradientUnits="userSpaceOnUse" id="paint1_ai" x1="7.66683" x2="7.66683" y1="0" y2="17.417">
-                        <stop stopColor="#1ABDD0" />
-                        <stop offset="1" stopColor="#57A8FF" />
-                      </linearGradient>
-                      <linearGradient gradientUnits="userSpaceOnUse" id="paint2_ai" x1="7.66683" x2="7.66683" y1="0" y2="17.417">
-                        <stop stopColor="#1ABDD0" />
-                        <stop offset="1" stopColor="#57A8FF" />
-                      </linearGradient>
-                      <linearGradient gradientUnits="userSpaceOnUse" id="paint3_ai" x1="7.66683" x2="7.66683" y1="0" y2="17.417">
-                        <stop stopColor="#1ABDD0" />
-                        <stop offset="1" stopColor="#57A8FF" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
-            </div>
+        {/* 채용달력 — 민트 */}
+        <div className="bg-[#DAF5F7] flex gap-[4px] items-center pt-[10px] pb-[10px] pl-[8px] pr-[20px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
+          <div className="bg-white flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
+            <img src="/src/assets/ic_recruit_default_line.svg" width={20} height={20} alt="" />
           </div>
-          <div className="overflow-clip relative shrink-0 size-[16px]">
-            <div className="absolute inset-[23.48%_33.33%_23.48%_34.26%]">
-              <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 5.18533 8.48533">
-                <path d={navSvgPaths.p13a1fe00} fill="#999999" />
-              </svg>
-            </div>
+          <div className="flex flex-col pl-[4px]">
+            <p className="font-bold leading-[19px] text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
+            <p className="font-normal leading-[17px] text-[#777] text-[12px] whitespace-nowrap">방금 뜬 공고 일정</p>
           </div>
         </div>
       </div>
@@ -468,7 +391,7 @@ function CompanyListItem({ logo, name, desc, date, keywords }: {
             {keywords.map((kw, i) => (
               <div key={i} className="h-[20px] relative shrink-0">
                 <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0">
-                  <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+                  <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
                     <p className="leading-[20px]">{kw.label}</p>
                   </div>
                 </div>
@@ -476,13 +399,13 @@ function CompanyListItem({ logo, name, desc, date, keywords }: {
             ))}
           </div>
         )}
-        <div className="col-1 flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
+        <div className="col-1 flex flex-col font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
           <p className="leading-[22px]">{name}</p>
         </div>
-        <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+        <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
           <p className="leading-[18px]">{desc}</p>
         </div>
-        <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+        <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
           <p className="leading-[18px]">{date}</p>
         </div>
       </div>
@@ -492,40 +415,39 @@ function CompanyListItem({ logo, name, desc, date, keywords }: {
 
 function SectionRecommand() {
   return (
-    <div className="bg-white h-[632px] relative shrink-0 w-[360px]">
+    <div className="bg-white h-[607px] relative shrink-0 w-[360px]">
       {/* Title */}
       <div className="absolute content-stretch flex items-start justify-between left-0 px-[16px] top-[24px] w-[360px]">
-        <div className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#777] text-[0px] tracking-[0.27px] whitespace-nowrap">
-          <p className="mb-0 text-[18px]">
-            <span className="leading-[25px] text-[#333]">다재다능 스프링복 </span>
-            <span className="leading-[25px]">님의</span>
+        <div className="font-bold leading-[0] relative shrink-0 text-[#777] text-[0px] tracking-[0.27px] whitespace-nowrap">
+          <p className="leading-[25px] text-[18px]">
+            <span className="text-[#333]">다재다능 스프링복 </span>
+            <span>님을 위한 🕵🏻‍♂️</span>
           </p>
-          <p className="leading-[25px] text-[18px]">이용 패턴에 맞게 찾아봤어요 🕵🏻‍♂️</p>
         </div>
         <div className="content-stretch flex h-[24px] items-center justify-center px-[8px] relative rounded-[4px] shrink-0">
           <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[4px]" />
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#ddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
+          <p className="font-normal leading-[18px] relative shrink-0 text-[#ddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
         </div>
       </div>
 
       {/* Tabs */}
-      <div className="absolute content-stretch flex gap-[8px] items-start left-[16px] top-[90px] overflow-x-auto w-[328px]">
+      <div className="absolute content-stretch flex gap-[8px] items-start left-[16px] top-[65px] overflow-x-auto w-[328px]">
         <div className="bg-[#fff6f0] content-stretch flex flex-col h-[34px] items-start py-[7.5px] relative rounded-[4px] shrink-0">
           <div aria-hidden="true" className="absolute border border-[#fed2ba] border-solid inset-0 pointer-events-none rounded-[4px]" />
           <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0">
-            <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] text-[#555] text-[14px] text-center tracking-[0.14px] whitespace-nowrap">실시간 인기 급상승 🏆</p>
+            <p className="font-normal leading-[21px] text-[#555] text-[14px] text-center tracking-[0.14px] whitespace-nowrap">실시간 인기 급상승 🏆</p>
           </div>
         </div>
         <div className="bg-white content-stretch flex flex-col h-[34px] items-start pb-[5px] pt-[7px] relative rounded-[4px] shrink-0">
           <div aria-hidden="true" className="absolute border border-[#eee] border-solid inset-0 pointer-events-none rounded-[4px]" />
           <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0">
-            <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] text-[#777] text-[14px] text-center tracking-[0.14px] whitespace-nowrap">$전공명$ 전공자가 많이 쓴</p>
+            <p className="font-normal leading-[21px] text-[#777] text-[14px] text-center tracking-[0.14px] whitespace-nowrap">$전공명$ 전공자가 많이 쓴</p>
           </div>
         </div>
       </div>
 
       {/* Company List */}
-      <div className="absolute content-stretch flex flex-col items-start left-[17px] overflow-clip top-[136px] w-[328px]">
+      <div className="absolute content-stretch flex flex-col items-start left-[17px] overflow-clip top-[111px] w-[328px]">
         <CompanyListItem
           logo={
             <div className="col-1 h-[19.5px] mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-position-[0px_-8.25px] mask-size-[48px_36px] ml-0 mt-[8.25px] relative row-1 w-[48px]" style={{ maskImage: `url('${imgLogo2}')` }}>
@@ -593,9 +515,9 @@ function SectionRecommand() {
       </div>
 
       {/* 더 보고 싶어요 Button */}
-      <div className="absolute content-stretch flex h-[40px] items-center justify-center left-[16px] px-[12px] py-[9px] rounded-[4px] top-[560px] w-[328px]">
+      <div className="absolute content-stretch flex h-[40px] items-center justify-center left-[16px] px-[12px] py-[9px] rounded-[4px] top-[535px] w-[328px]">
         <div aria-hidden="true" className="absolute border border-[#eee] border-solid inset-0 pointer-events-none rounded-[4px]" />
-        <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] text-center tracking-[0.21px] whitespace-nowrap">
+        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] text-center tracking-[0.21px] whitespace-nowrap">
           <p className="leading-[19px]">더 보고 싶어요</p>
         </div>
       </div>

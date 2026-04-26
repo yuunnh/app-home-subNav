@@ -70,7 +70,7 @@ function Container5() {
 function Paragraph() {
   return (
     <div className="absolute h-[19px] left-[20px] top-[80px] w-[49.242px]" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] left-0 text-[14px] text-white top-0 tracking-[0.21px] whitespace-nowrap">앵커리어</p>
+      <p className="absolute font-bold leading-[19px] left-0 text-[14px] text-white top-0 tracking-[0.21px] whitespace-nowrap">앵커리어</p>
     </div>
   );
 }
@@ -78,7 +78,7 @@ function Paragraph() {
 function Paragraph1() {
   return (
     <div className="h-[27px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[27px] left-0 text-[20px] text-white top-[-0.5px] tracking-[0.3px] whitespace-nowrap">자소설닷컴</p>
+      <p className="absolute font-bold leading-[27px] left-0 text-[20px] text-white top-[-0.5px] tracking-[0.3px] whitespace-nowrap">자소설닷컴</p>
     </div>
   );
 }
@@ -87,7 +87,7 @@ function Container6() {
   return (
     <div className="absolute content-stretch flex flex-col h-[54px] items-start left-[20px] top-[103px] w-[132.938px]" data-name="Container">
       <Paragraph1 />
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[27px] leading-[27px] relative shrink-0 text-[20px] text-white tracking-[0.3px] w-[133px]">디자인 직무 채용</p>
+      <p className="font-bold h-[27px] leading-[27px] relative shrink-0 text-[20px] text-white tracking-[0.3px] w-[133px]">디자인 직무 채용</p>
     </div>
   );
 }
@@ -95,7 +95,7 @@ function Container6() {
 function Paragraph2() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">2023.02.28 ~ 2023.03.27</p>
+      <p className="absolute font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">2023.02.28 ~ 2023.03.27</p>
     </div>
   );
 }
@@ -103,7 +103,7 @@ function Paragraph2() {
 function Paragraph3() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">#자소설닷컴 #프로덕트디자인</p>
+      <p className="absolute font-normal leading-[20px] left-0 text-[13px] text-white top-0 tracking-[0.13px] whitespace-nowrap">#자소설닷컴 #프로덕트디자인</p>
     </div>
   );
 }
@@ -330,7 +330,7 @@ function Container1() {
 function Paragraph4() {
   return (
     <div className="absolute h-[18px] left-[12px] top-[7px] w-[29.57px]" data-name="Paragraph">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-[15px] text-[#333] text-[12px] text-center top-[-0.5px] tracking-[0.12px] whitespace-nowrap">15/18</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[18px] left-[15px] text-[#333] text-[12px] text-center top-[-0.5px] tracking-[0.12px] whitespace-nowrap">15/18</p>
     </div>
   );
 }
@@ -396,8 +396,8 @@ function Container() {
 function Container26() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-[121px]" data-name="Container">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
     </div>
   );
 }
@@ -441,7 +441,7 @@ function Container28() {
 function Desc() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">SK그룹 SKALA</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">SK그룹 SKALA</p>
     </div>
   );
 }
@@ -482,7 +482,7 @@ function Container30() {
 function Desc1() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
     </div>
   );
 }
@@ -507,7 +507,7 @@ function Container29() {
 function Desc2() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
     </div>
   );
 }
@@ -550,7 +550,7 @@ function Container33() {
 function Desc3() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">기아 채용관</p>
     </div>
   );
 }
@@ -632,7 +632,7 @@ function Title() {
     <div className="relative shrink-0 w-full" data-name="title">
       <div className="flex flex-row items-center justify-center size-full">
         <div className="content-stretch flex items-center justify-center px-[12px] relative size-full">
-          <p className="flex-[1_0_0] font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px]">{`👀 새로운 발견 `}</p>
+          <p className="flex-[1_0_0] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px]">{`👀 새로운 발견 `}</p>
         </div>
       </div>
     </div>
@@ -669,7 +669,7 @@ function Container35() {
 function Desc4() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">{`스낵 챗 발견 `}</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">{`스낵 챗 발견 `}</p>
     </div>
   );
 }
@@ -716,7 +716,7 @@ function Container37() {
 function Desc5() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
     </div>
   );
 }
@@ -786,7 +786,7 @@ function Container39() {
 function Desc6() {
   return (
     <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0" data-name="desc">
-      <p className="font-['Pretendard_Variable:SemiBold',sans-serif] font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
+      <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
     </div>
   );
 }
@@ -838,7 +838,7 @@ function TopList() {
 function Paragraph5() {
   return (
     <div className="h-[25px] relative shrink-0 w-full" data-name="Paragraph">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[0] left-0 text-[#333] text-[18px] top-[-0.5px] tracking-[0.27px] whitespace-nowrap">
+      <p className="absolute font-bold leading-[0] left-0 text-[#333] text-[18px] top-[-0.5px] tracking-[0.27px] whitespace-nowrap">
         <span className="leading-[25px]">{`다재다능 스프링복 `}</span>
         <span className="leading-[25px] text-[#777]">님의</span>
       </p>
@@ -850,7 +850,7 @@ function Container40() {
   return (
     <div className="absolute content-stretch flex flex-col h-[50px] items-start left-[16px] top-[24px] w-[225.906px]" data-name="Container">
       <Paragraph5 />
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[25px] leading-[25px] relative shrink-0 text-[#777] text-[18px] tracking-[0.27px] w-[226px]">이용 패턴에 맞게 찾아봤어요 🕵🏻‍♂️</p>
+      <p className="font-bold h-[25px] leading-[25px] relative shrink-0 text-[#777] text-[18px] tracking-[0.27px] w-[226px]">이용 패턴에 맞게 찾아봤어요 🕵🏻‍♂️</p>
     </div>
   );
 }
@@ -862,7 +862,7 @@ function Container41() {
 function Paragraph6() {
   return (
     <div className="absolute h-[18px] left-[319.78px] top-[27px] w-[16.219px]" data-name="Paragraph">
-      <p className="-translate-x-full absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-[17px] text-[#ddd] text-[12px] text-right top-[-0.5px] tracking-[0.12px] whitespace-nowrap">AD</p>
+      <p className="-translate-x-full absolute font-normal leading-[18px] left-[17px] text-[#ddd] text-[12px] text-right top-[-0.5px] tracking-[0.12px] whitespace-nowrap">AD</p>
     </div>
   );
 }
@@ -874,7 +874,7 @@ function Container44() {
 function Container45() {
   return (
     <div className="absolute content-stretch flex flex-col h-[19px] items-center justify-center left-0 px-[8px] py-[-1px] top-[7.5px] w-[139.023px]" data-name="Container">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[21px] leading-[21px] relative shrink-0 text-[#555] text-[14px] text-center tracking-[0.14px] w-[123px]">실시간 인기 급상승 🏆</p>
+      <p className="font-normal h-[21px] leading-[21px] relative shrink-0 text-[#555] text-[14px] text-center tracking-[0.14px] w-[123px]">실시간 인기 급상승 🏆</p>
     </div>
   );
 }
@@ -896,7 +896,7 @@ function Paragraph7() {
   return (
     <div className="h-[21px] relative shrink-0 w-[150.648px]" data-name="Paragraph">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] left-[75.5px] text-[#777] text-[14px] text-center top-0 tracking-[0.14px] whitespace-nowrap">$전공명$ 전공자가 많이 쓴</p>
+        <p className="-translate-x-1/2 absolute font-normal leading-[21px] left-[75.5px] text-[#777] text-[14px] text-center top-0 tracking-[0.14px] whitespace-nowrap">$전공명$ 전공자가 많이 쓴</p>
       </div>
     </div>
   );
@@ -939,7 +939,7 @@ function Image5() {
 function Container51() {
   return (
     <div className="bg-[#e8ebfe] h-[20px] relative rounded-[4px] shrink-0 w-full" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[20px] leading-[20px] left-[25px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] w-[34px]">대기업</p>
+      <p className="-translate-x-1/2 absolute font-normal h-[20px] leading-[20px] left-[25px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] w-[34px]">대기업</p>
     </div>
   );
 }
@@ -955,7 +955,7 @@ function Container50() {
 function Container54() {
   return (
     <div className="absolute h-[20px] left-[8px] top-0 w-[60.227px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-[30.5px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] whitespace-nowrap">글로벌 기업</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[20px] left-[30.5px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] whitespace-nowrap">글로벌 기업</p>
     </div>
   );
 }
@@ -979,7 +979,7 @@ function Container52() {
 function Container55() {
   return (
     <div className="absolute h-[22px] left-[84px] top-[8px] w-[212px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px] whitespace-nowrap">삼성전자</p>
+      <p className="absolute font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px] whitespace-nowrap">삼성전자</p>
     </div>
   );
 }
@@ -987,7 +987,7 @@ function Container55() {
 function Container56() {
   return (
     <div className="absolute h-[18px] left-[84px] top-[32px] w-[228px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">2024년 공개채용</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">2024년 공개채용</p>
     </div>
   );
 }
@@ -995,7 +995,7 @@ function Container56() {
 function Container57() {
   return (
     <div className="absolute h-[18px] left-[84px] top-[50px] w-[228px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">~ 2024년 8월 29일 17시 00분</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">~ 2024년 8월 29일 17시 00분</p>
     </div>
   );
 }
@@ -1046,7 +1046,7 @@ function Image6() {
 function Container60() {
   return (
     <div className="bg-[#e8ebfe] h-[20px] relative rounded-[4px] shrink-0 w-full" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[20px] leading-[20px] left-[42.5px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] w-[69px]">모빌리티 SW</p>
+      <p className="-translate-x-1/2 absolute font-normal h-[20px] leading-[20px] left-[42.5px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] w-[69px]">모빌리티 SW</p>
     </div>
   );
 }
@@ -1062,7 +1062,7 @@ function Container59() {
 function Container63() {
   return (
     <div className="absolute h-[20px] left-[8px] top-0 w-[103.641px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-[52px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] whitespace-nowrap">업계 평균 연봉 TOP</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[20px] left-[52px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] whitespace-nowrap">업계 평균 연봉 TOP</p>
     </div>
   );
 }
@@ -1086,7 +1086,7 @@ function Container61() {
 function Container64() {
   return (
     <div className="absolute h-[22px] left-[84px] top-[8px] w-[212px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px] whitespace-nowrap">현대자동차</p>
+      <p className="absolute font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px] whitespace-nowrap">현대자동차</p>
     </div>
   );
 }
@@ -1094,7 +1094,7 @@ function Container64() {
 function Container65() {
   return (
     <div className="absolute h-[18px] left-[84px] top-[32px] w-[228px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">2024년 대졸 신입 채용</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">2024년 대졸 신입 채용</p>
     </div>
   );
 }
@@ -1102,7 +1102,7 @@ function Container65() {
 function Container66() {
   return (
     <div className="absolute h-[18px] left-[84px] top-[50px] w-[228px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">~ 2024년 8월 28일 12시 00분</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">~ 2024년 8월 28일 12시 00분</p>
     </div>
   );
 }
@@ -1153,7 +1153,7 @@ function Image7() {
 function Container70() {
   return (
     <div className="absolute h-[20px] left-[8px] top-0 w-[77.516px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-[39px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] whitespace-nowrap">매출 업계 TOP</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[20px] left-[39px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] whitespace-nowrap">매출 업계 TOP</p>
     </div>
   );
 }
@@ -1177,7 +1177,7 @@ function Container68() {
 function Container72() {
   return (
     <div className="bg-[#e8ebfe] h-[20px] relative rounded-[4px] shrink-0 w-full" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[20px] leading-[20px] left-[42px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] w-[68px]">1944년 설립</p>
+      <p className="-translate-x-1/2 absolute font-normal h-[20px] leading-[20px] left-[42px] text-[#7084fa] text-[13px] text-center top-0 tracking-[0.13px] w-[68px]">1944년 설립</p>
     </div>
   );
 }
@@ -1193,7 +1193,7 @@ function Container71() {
 function Container73() {
   return (
     <div className="absolute h-[22px] left-[84px] top-[8px] w-[212px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px] whitespace-nowrap">SK하이닉스</p>
+      <p className="absolute font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px] whitespace-nowrap">SK하이닉스</p>
     </div>
   );
 }
@@ -1201,7 +1201,7 @@ function Container73() {
 function Container74() {
   return (
     <div className="absolute h-[18px] left-[84px] top-[32px] w-[228px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">2024년 하반기 공개채용</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">2024년 하반기 공개채용</p>
     </div>
   );
 }
@@ -1209,7 +1209,7 @@ function Container74() {
 function Container75() {
   return (
     <div className="absolute h-[18px] left-[84px] top-[50px] w-[228px]" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">~ 2024년 9월 1일 12시 00분</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[-0.5px] tracking-[0.12px] whitespace-nowrap">~ 2024년 9월 1일 12시 00분</p>
     </div>
   );
 }
@@ -1260,9 +1260,9 @@ function Image8() {
 function Container77() {
   return (
     <div className="absolute h-[60px] left-[84px] top-[8px] w-[228px] whitespace-nowrap" data-name="Container">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px]">네이버</p>
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[23.5px] tracking-[0.12px]">채용 전환 디자인 인턴십</p>
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[41.5px] tracking-[0.12px]">~ 2024년 8월 20일 23시 59분</p>
+      <p className="absolute font-bold leading-[22px] left-0 text-[#555] text-[16px] top-[-0.5px] tracking-[0.24px]">네이버</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[23.5px] tracking-[0.12px]">채용 전환 디자인 인턴십</p>
+      <p className="absolute font-normal leading-[18px] left-0 text-[#999] text-[12px] top-[41.5px] tracking-[0.12px]">~ 2024년 8월 20일 23시 59분</p>
     </div>
   );
 }
@@ -1297,7 +1297,7 @@ function Container78() {
 function Container79() {
   return (
     <div className="absolute h-[19px] left-[139.63px] top-[570.5px] w-[80.75px]" data-name="Container">
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] left-[40.5px] text-[#777] text-[14px] text-center top-0 tracking-[0.21px] whitespace-nowrap">더 보고 싶어요</p>
+      <p className="-translate-x-1/2 absolute font-bold leading-[19px] left-[40.5px] text-[#777] text-[14px] text-center top-0 tracking-[0.21px] whitespace-nowrap">더 보고 싶어요</p>
     </div>
   );
 }

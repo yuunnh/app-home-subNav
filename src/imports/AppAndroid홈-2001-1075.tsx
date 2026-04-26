@@ -11,8 +11,8 @@ import { imgLogo2 } from "./svg-3469w";
 function Info() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start relative shrink-0 w-[143px]" data-name="info">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">신한은행</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] relative shrink-0 text-[#777] text-[14px] tracking-[0.14px] w-full">2024년 기술직 공개 채용</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">신한은행</p>
+      <p className="font-normal leading-[21px] relative shrink-0 text-[#777] text-[14px] tracking-[0.14px] w-full">2024년 기술직 공개 채용</p>
     </div>
   );
 }
@@ -50,7 +50,7 @@ function Watermark() {
 function Header() {
   return (
     <div className="absolute contents left-0 top-[12px]" data-name="header">
-      <p className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] left-[16px] text-[#777] text-[13px] top-[12px] tracking-[0.13px] whitespace-nowrap">👀 이 공고 어때요?</p>
+      <p className="absolute font-normal leading-[20px] left-[16px] text-[#777] text-[13px] top-[12px] tracking-[0.13px] whitespace-nowrap">👀 이 공고 어때요?</p>
       <Watermark />
       <div className="absolute h-0 left-0 top-[44px] w-[360px]" data-name="divider">
         <div className="absolute inset-[-1px_0_0_0]">
@@ -95,12 +95,12 @@ function Navigator() {
 function Text() {
   return (
     <div className="absolute contents left-[20px] text-white top-[80px] whitespace-nowrap" data-name="text">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] left-[20px] text-[14px] top-[80px] tracking-[0.21px]">앵커리어</p>
-      <div className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[0] left-[20px] text-[20px] top-[103px] tracking-[0.3px]">
+      <p className="absolute font-bold leading-[19px] left-[20px] text-[14px] top-[80px] tracking-[0.21px]">앵커리어</p>
+      <div className="absolute font-bold leading-[0] left-[20px] text-[20px] top-[103px] tracking-[0.3px]">
         <p className="leading-[27px] mb-0">자소설닷컴</p>
         <p className="leading-[27px]">디자인 직무 채용</p>
       </div>
-      <div className="absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[0] left-[20px] text-[13px] top-[169px] tracking-[0.13px]">
+      <div className="absolute font-normal leading-[0] left-[20px] text-[13px] top-[169px] tracking-[0.13px]">
         <p className="leading-[20px] mb-0">2023.02.28 ~ 2023.03.27</p>
         <p className="leading-[20px]">#자소설닷컴 #프로덕트디자인</p>
       </div>
@@ -278,7 +278,7 @@ function Top() {
 function Navigator1() {
   return (
     <div className="bg-[rgba(255,255,255,0.72)] col-1 content-stretch flex gap-[4px] items-center justify-center ml-[276px] mt-[192px] pl-[12px] pr-[6px] py-[6px] relative rounded-[16px] row-1 shadow-[0px_2px_4px_0px_rgba(0,0,0,0.08)]" data-name="navigator">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#333] text-[12px] text-center tracking-[0.12px] whitespace-nowrap">15/18</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#333] text-[12px] text-center tracking-[0.12px] whitespace-nowrap">15/18</p>
       <div className="overflow-clip relative rounded-[4px] shrink-0 size-[20px]" data-name="button">
         <div className="absolute inset-[16.67%] overflow-clip" data-name="system/ic_arrow_right_linear">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 32 32">
@@ -328,7 +328,7 @@ function Img1() {
 function List() {
   return (
     <div className="bg-white col-1 content-stretch flex gap-[12px] items-center ml-0 mt-0 pl-[24px] pr-[12px] py-[4px] relative rounded-[4px] row-1 shadow-[0px_1px_2px_0px_rgba(0,0,0,0.04)] w-[344px]" data-name="list">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[22px] justify-center leading-[0] min-w-px relative text-[#555] text-[16px] tracking-[0.16px]">
+      <div className="flex flex-[1_0_0] flex-col font-normal h-[22px] justify-center leading-[0] min-w-px relative text-[#555] text-[16px] tracking-[0.16px]">
         <p className="leading-[24px]">기아 채용관</p>
       </div>
       <Img1 />
@@ -359,7 +359,7 @@ function Watermark1() {
   return (
     <div className="content-stretch flex h-[24px] items-center justify-center px-[8px] relative rounded-[4px] shrink-0" data-name="watermark">
       <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[4px]" />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#ddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
+      <p className="font-normal leading-[18px] relative shrink-0 text-[#ddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
     </div>
   );
 }
@@ -367,7 +367,7 @@ function Watermark1() {
 function Title() {
   return (
     <div className="absolute content-stretch flex items-start justify-between left-0 px-[16px] top-[24px] w-[360px]" data-name="title">
-      <div className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#777] text-[0px] tracking-[0.27px] whitespace-nowrap">
+      <div className="font-bold leading-[0] relative shrink-0 text-[#777] text-[0px] tracking-[0.27px] whitespace-nowrap">
         <p className="mb-0 text-[18px]">
           <span className="leading-[25px] text-[#333]">{`다재다능 스프링복 `}</span>
           <span className="leading-[25px]">님의</span>
@@ -382,7 +382,7 @@ function Title() {
 function Text1() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#555] text-[14px] text-center tracking-[0.14px] w-full whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#555] text-[14px] text-center tracking-[0.14px] w-full whitespace-nowrap">
         <p className="leading-[21px]">실시간 인기 급상승 🏆</p>
       </div>
     </div>
@@ -392,7 +392,7 @@ function Text1() {
 function Text2() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p>
           <span className="leading-[21px] text-[#777]">$전공명$</span>
           <span className="leading-[21px]">{` 전공자가 많이 쓴`}</span>
@@ -405,7 +405,7 @@ function Text2() {
 function Text3() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p>
           <span className="leading-[21px] text-[#777]">$관심직무$</span>
           <span className="leading-[21px]">{` 직무를 채용하는`}</span>
@@ -418,7 +418,7 @@ function Text3() {
 function Text4() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">우리 과 선배가 많이 지원한 기업</p>
       </div>
     </div>
@@ -428,7 +428,7 @@ function Text4() {
 function Text5() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p>
           <span className="leading-[21px] text-[#303263]">$전공대분류$</span>
           <span className="leading-[21px]">이라면</span>
@@ -441,7 +441,7 @@ function Text5() {
 function Text6() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">신입 인기 공고</p>
       </div>
     </div>
@@ -451,7 +451,7 @@ function Text6() {
 function Text7() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">즐겨찾기가 많이 된</p>
       </div>
     </div>
@@ -461,7 +461,7 @@ function Text7() {
 function Text8() {
   return (
     <div className="content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] relative shrink-0 w-[65px]" data-name="text">
-      <div className="flex flex-[1_0_0] flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="flex flex-[1_0_0] flex-col font-normal justify-center leading-[0] min-h-px relative text-[#777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">3일 내 자소서가 많이 쓰인</p>
       </div>
     </div>
@@ -520,7 +520,7 @@ function Logo() {
 function Contents2() {
   return (
     <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">대기업</p>
       </div>
     </div>
@@ -530,7 +530,7 @@ function Contents2() {
 function Contents3() {
   return (
     <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">글로벌 기업</p>
       </div>
     </div>
@@ -554,13 +554,13 @@ function Info1() {
   return (
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[84px] mt-[8px] place-items-start relative row-1" data-name="info">
       <Keyword />
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
+      <div className="col-1 flex flex-col font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
         <p className="leading-[22px]">삼성전자</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">2024년 공개채용</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">~ 2024년 8월 29일 17시 00분</p>
       </div>
     </div>
@@ -590,7 +590,7 @@ function Logo1() {
 function Contents4() {
   return (
     <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">모빌리티 SW</p>
       </div>
     </div>
@@ -600,7 +600,7 @@ function Contents4() {
 function Contents5() {
   return (
     <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">업계 평균 연봉 TOP</p>
       </div>
     </div>
@@ -624,13 +624,13 @@ function Info2() {
   return (
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[84px] mt-[10px] place-items-start relative row-1" data-name="info">
       <Keyword1 />
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
+      <div className="col-1 flex flex-col font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
         <p className="leading-[22px]">현대자동차</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">2024년 대졸 신입 채용</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">~ 2024년 8월 28일 12시 00분</p>
       </div>
     </div>
@@ -660,7 +660,7 @@ function Logo2() {
 function Contents6() {
   return (
     <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">매출 업계 TOP</p>
       </div>
     </div>
@@ -670,7 +670,7 @@ function Contents6() {
 function Contents7() {
   return (
     <div className="absolute bg-[#e8ebfe] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#7084fa] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">1944년 설립</p>
       </div>
     </div>
@@ -694,13 +694,13 @@ function Info3() {
   return (
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[84px] mt-[8px] place-items-start relative row-1" data-name="info">
       <Keyword2 />
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
+      <div className="col-1 flex flex-col font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
         <p className="leading-[22px]">SK하이닉스</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">2024년 하반기 공개채용</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">~ 2024년 9월 1일 12시 00분</p>
       </div>
     </div>
@@ -730,13 +730,13 @@ function Logo3() {
 function Info4() {
   return (
     <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[84px] mt-[22px] place-items-start relative row-1" data-name="info">
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
+      <div className="col-1 flex flex-col font-bold h-[22px] justify-center ml-0 mt-0 relative row-1 text-[#555] text-[16px] tracking-[0.24px] w-[212px]">
         <p className="leading-[22px]">네이버</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[24px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">채용 전환 디자인 인턴십</p>
       </div>
-      <div className="col-1 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
+      <div className="col-1 flex flex-col font-normal h-[18px] justify-center ml-0 mt-[42px] relative row-1 text-[#999] text-[12px] tracking-[0.12px] w-[228px]">
         <p className="leading-[18px]">~ 2024년 8월 20일 23시 59분</p>
       </div>
     </div>
@@ -797,7 +797,7 @@ function SectionRecommand() {
       <Title />
       <div className="absolute content-stretch flex h-[40px] items-center justify-center left-[16px] px-[12px] py-[9px] rounded-[4px] top-[560px] w-[328px]" data-name="button">
         <div aria-hidden="true" className="absolute border border-[#eee] border-solid inset-0 pointer-events-none rounded-[4px]" />
-        <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] text-center tracking-[0.21px] whitespace-nowrap">
+        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] text-center tracking-[0.21px] whitespace-nowrap">
           <p className="leading-[19px]">더 보고 싶어요</p>
         </div>
       </div>
@@ -810,10 +810,10 @@ function SectionRecommand() {
 function Company() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] relative shrink-0 w-[136px]" data-name="company">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">삼성전자</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px] mb-0">2024년 하반기</p>
         <p className="leading-[20px]">신입사원 채용</p>
       </div>
@@ -824,7 +824,7 @@ function Company() {
 function Contents8() {
   return (
     <div className="absolute bg-[#f0f7de] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">2,359명 작성</p>
       </div>
     </div>
@@ -846,10 +846,10 @@ function Card() {
 function Company1() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] relative shrink-0 w-[136px]" data-name="company">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">현대오토에버</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px] mb-0">2024년</p>
         <p className="leading-[20px]">신입/경력 공개채용</p>
       </div>
@@ -860,7 +860,7 @@ function Company1() {
 function Contents9() {
   return (
     <div className="absolute bg-[#f0f7de] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">2,154명 작성</p>
       </div>
     </div>
@@ -882,10 +882,10 @@ function Card1() {
 function Company2() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] relative shrink-0 w-[136px]" data-name="company">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">SK하이닉스</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px] mb-0">2024년 공개 채용</p>
         <p className="leading-[20px]">​</p>
       </div>
@@ -896,7 +896,7 @@ function Company2() {
 function Contents10() {
   return (
     <div className="absolute bg-[#f0f7de] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">1,897명 작성</p>
       </div>
     </div>
@@ -918,10 +918,10 @@ function Card2() {
 function Company3() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[2px] items-start leading-[0] left-[12px] top-[16px] w-[136px]" data-name="company">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">현대자동차</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#999] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px] mb-0">2024년 하반기</p>
         <p className="leading-[20px]">신입사원 채용</p>
       </div>
@@ -932,7 +932,7 @@ function Company3() {
 function Contents11() {
   return (
     <div className="absolute bg-[#f0f7de] content-stretch flex flex-col h-[20px] items-start justify-center left-0 px-[8px] rounded-[4px] top-0" data-name="contents">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#84bd00] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">3,276명 작성</p>
       </div>
     </div>
@@ -947,7 +947,7 @@ function Card3() {
       <div className="absolute h-[20px] left-[12px] top-[88px] w-[78px]" data-name="tag">
         <Contents11 />
       </div>
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-[139.5px] text-[#ddd] text-[12px] text-center top-[98px] tracking-[0.12px] whitespace-nowrap">AD</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[18px] left-[139.5px] text-[#ddd] text-[12px] text-center top-[98px] tracking-[0.12px] whitespace-nowrap">AD</p>
     </div>
   );
 }
@@ -966,7 +966,7 @@ function Cards() {
 function SectionPopular() {
   return (
     <div className="bg-white content-start flex flex-wrap gap-[16px_8px] items-start pb-[28px] pt-[24px] px-[16px] relative shrink-0 w-[360px]" data-name="section_popular">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333] text-[18px] tracking-[0.27px] whitespace-nowrap">인기 급상승 🚀 최신 공고</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333] text-[18px] tracking-[0.27px] whitespace-nowrap">인기 급상승 🚀 최신 공고</p>
       <Cards />
       <div className="content-stretch flex gap-[4px] h-[40px] items-center justify-center px-[12px] py-[10px] relative rounded-[4px] shrink-0 w-[328px]" data-name="button">
         <div aria-hidden="true" className="absolute border border-[#eee] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -980,7 +980,7 @@ function SectionPopular() {
             </svg>
           </div>
         </div>
-        <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] tracking-[0.21px] whitespace-nowrap">
+        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] tracking-[0.21px] whitespace-nowrap">
           <p className="leading-[19px]">더 보기</p>
         </div>
       </div>
@@ -998,7 +998,7 @@ function Contents12() {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">4일 남음</p>
       </div>
     </div>
@@ -1016,10 +1016,10 @@ function Tag() {
 function Info5() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] relative shrink-0 w-[132px]" data-name="info">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] whitespace-nowrap">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] whitespace-nowrap">
         <p className="leading-[22px]">신한은행</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center min-w-full relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-[min-content]">
+      <div className="flex flex-col font-normal justify-center min-w-full relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-[min-content]">
         <p className="leading-[20px]">3,832명 작성</p>
       </div>
     </div>
@@ -1046,7 +1046,7 @@ function Contents13() {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">10일 남음</p>
       </div>
     </div>
@@ -1064,10 +1064,10 @@ function Tag1() {
 function Info6() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] relative shrink-0 w-[132px]" data-name="info">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">코오롱글로벌</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px]">912명 작성</p>
       </div>
     </div>
@@ -1094,7 +1094,7 @@ function Contents14() {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">10시간 남음</p>
       </div>
     </div>
@@ -1112,10 +1112,10 @@ function Tag2() {
 function Info7() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start leading-[0] relative shrink-0 w-[132px]" data-name="info">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">한국전기공사</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px]">3,452명 작성</p>
       </div>
     </div>
@@ -1142,7 +1142,7 @@ function Contents15() {
           </svg>
         </div>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#ff6e70] text-[13px] text-center tracking-[0.13px] whitespace-nowrap">
         <p className="leading-[20px]">1일 남음</p>
       </div>
     </div>
@@ -1160,10 +1160,10 @@ function Tag3() {
 function Info8() {
   return (
     <div className="absolute content-stretch flex flex-col gap-[2px] items-start leading-[0] left-[12px] top-[48px] w-[132px]" data-name="info">
-      <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
+      <div className="flex flex-col font-bold justify-center relative shrink-0 text-[#333] text-[16px] tracking-[0.24px] w-full">
         <p className="leading-[22px]">GS칼텍스</p>
       </div>
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-full">
+      <div className="flex flex-col font-normal justify-center relative shrink-0 text-[#555] text-[13px] tracking-[0.13px] w-full">
         <p className="leading-[20px]">2,352명 작성</p>
       </div>
     </div>
@@ -1176,7 +1176,7 @@ function Card7() {
       <div aria-hidden="true" className="absolute border border-[#eee] border-solid inset-0 pointer-events-none rounded-[4px]" />
       <Tag3 />
       <Info8 />
-      <p className="-translate-x-1/2 absolute font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] left-[139.5px] text-[#ddd] text-[12px] text-center top-[78px] tracking-[0.12px] whitespace-nowrap">AD</p>
+      <p className="-translate-x-1/2 absolute font-normal leading-[18px] left-[139.5px] text-[#ddd] text-[12px] text-center top-[78px] tracking-[0.12px] whitespace-nowrap">AD</p>
     </div>
   );
 }
@@ -1195,7 +1195,7 @@ function Cards1() {
 function SectionUrgent() {
   return (
     <div className="bg-white content-start flex flex-wrap gap-[16px_8px] items-start pb-[28px] pt-[24px] px-[16px] relative shrink-0 w-[360px]" data-name="section_urgent">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333] text-[18px] tracking-[0.27px] whitespace-nowrap">인기 공고 막차 탑승 🚌</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333] text-[18px] tracking-[0.27px] whitespace-nowrap">인기 공고 막차 탑승 🚌</p>
       <Cards1 />
       <div className="content-stretch flex gap-[4px] h-[40px] items-center justify-center px-[12px] py-[10px] relative rounded-[4px] shrink-0 w-[328px]" data-name="button">
         <div aria-hidden="true" className="absolute border border-[#eee] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -1209,7 +1209,7 @@ function SectionUrgent() {
             </svg>
           </div>
         </div>
-        <div className="flex flex-col font-['Pretendard_Variable:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] tracking-[0.21px] whitespace-nowrap">
+        <div className="flex flex-col font-bold justify-center leading-[0] relative shrink-0 text-[#777] text-[14px] tracking-[0.21px] whitespace-nowrap">
           <p className="leading-[19px]">더 보기</p>
         </div>
       </div>

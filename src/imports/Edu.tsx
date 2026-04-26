@@ -7,7 +7,7 @@ import img51 from "figma:asset/2cf4cd1ebe82947440094997fa1a5bca3f4496b0.png";
 function Header() {
   return (
     <div className="content-stretch flex gap-[60px] items-start relative shrink-0 w-[328px]" data-name="header">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무 교육관 🧑‍💻</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무 교육관 🧑‍💻</p>
     </div>
   );
 }

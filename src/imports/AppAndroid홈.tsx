@@ -3,7 +3,7 @@ import svgPaths from "./svg-z7skeotgsd";
 function Text() {
   return (
     <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0" data-name="text">
-      <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#555555] text-[14px] text-center text-nowrap tracking-[0.14px] w-full">
+      <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#555555] text-[14px] text-center text-nowrap tracking-[0.14px] w-full">
         <p className="leading-[21px] whitespace-pre">디자인</p>
       </div>
     </div>
@@ -22,7 +22,7 @@ function Tab() {
 function Text1() {
   return (
     <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0" data-name="text">
-      <div className="basis-0 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal grow justify-center leading-[0] min-h-px min-w-px relative shrink-0 text-[#777777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="basis-0 flex flex-col font-normal grow justify-center leading-[0] min-h-px min-w-px relative shrink-0 text-[#777777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">경영·사무</p>
       </div>
     </div>
@@ -41,7 +41,7 @@ function Tab1() {
 function Text2() {
   return (
     <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0" data-name="text">
-      <div className="basis-0 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal grow justify-center leading-[0] min-h-px min-w-px relative shrink-0 text-[#777777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="basis-0 flex flex-col font-normal grow justify-center leading-[0] min-h-px min-w-px relative shrink-0 text-[#777777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">마케팅·광고·홍보</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ function Tab2() {
 function Text3() {
   return (
     <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0" data-name="text">
-      <div className="basis-0 flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal grow justify-center leading-[0] min-h-px min-w-px relative shrink-0 text-[#777777] text-[14px] text-center tracking-[0.14px] w-full">
+      <div className="basis-0 flex flex-col font-normal grow justify-center leading-[0] min-h-px min-w-px relative shrink-0 text-[#777777] text-[14px] text-center tracking-[0.14px] w-full">
         <p className="leading-[21px]">무역·유통</p>
       </div>
     </div>
@@ -92,15 +92,15 @@ function Tabs() {
 function Company() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 text-[16px] text-nowrap whitespace-pre" data-name="company">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">SK브로드밴드</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">서비스 기획</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">SK브로드밴드</p>
+      <p className="font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">서비스 기획</p>
     </div>
   );
 }
 
 function Info() {
   return (
-    <div className="content-stretch flex font-['Pretendard_Variable:Regular',sans-serif] font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
+    <div className="content-stretch flex font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
       <div className="flex flex-col justify-center relative shrink-0">
         <p className="leading-[21px] text-nowrap whitespace-pre">4일 남음</p>
       </div>
@@ -123,7 +123,7 @@ function Unit() {
 function List() {
   return (
     <div className="box-border content-stretch flex gap-[16px] items-start px-[16px] py-0 relative shrink-0" data-name="list">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">1</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">1</p>
       <Unit />
     </div>
   );
@@ -132,7 +132,7 @@ function List() {
 function Rank() {
   return (
     <div className="absolute h-[22px] left-0 overflow-clip top-0 w-[40px]" data-name="rank">
-      <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-[20px] text-[#999999] text-[16px] text-center top-0 tracking-[0.24px] translate-x-[-50%] w-[40px]">2</p>
+      <p className="absolute font-bold leading-[22px] left-[20px] text-[#999999] text-[16px] text-center top-0 tracking-[0.24px] translate-x-[-50%] w-[40px]">2</p>
     </div>
   );
 }
@@ -140,15 +140,15 @@ function Rank() {
 function Company1() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 text-[16px] text-nowrap whitespace-pre" data-name="company">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">우아한형제들</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">콘텐츠 디자이너</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">우아한형제들</p>
+      <p className="font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">콘텐츠 디자이너</p>
     </div>
   );
 }
 
 function Info1() {
   return (
-    <div className="content-stretch flex font-['Pretendard_Variable:Regular',sans-serif] font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
+    <div className="content-stretch flex font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
       <div className="flex flex-col justify-center relative shrink-0">
         <p className="leading-[21px] text-nowrap whitespace-pre">4일 남음</p>
       </div>
@@ -180,15 +180,15 @@ function List1() {
 function Company2() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 text-[16px] text-nowrap whitespace-pre" data-name="company">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">LG CNS</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">UX</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">LG CNS</p>
+      <p className="font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">UX</p>
     </div>
   );
 }
 
 function Info2() {
   return (
-    <div className="content-stretch flex font-['Pretendard_Variable:Regular',sans-serif] font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
+    <div className="content-stretch flex font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
       <div className="flex flex-col justify-center relative shrink-0">
         <p className="leading-[21px] text-nowrap whitespace-pre">3일 남음</p>
       </div>
@@ -211,7 +211,7 @@ function Unit2() {
 function List2() {
   return (
     <div className="box-border content-stretch flex gap-[16px] items-start px-[16px] py-0 relative shrink-0" data-name="list">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">3</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">3</p>
       <Unit2 />
     </div>
   );
@@ -220,15 +220,15 @@ function List2() {
 function Company3() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 text-[16px] text-nowrap whitespace-pre" data-name="company">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">LG CNS</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">UX/UI</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">LG CNS</p>
+      <p className="font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">UX/UI</p>
     </div>
   );
 }
 
 function Info3() {
   return (
-    <div className="content-stretch flex font-['Pretendard_Variable:Regular',sans-serif] font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
+    <div className="content-stretch flex font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
       <div className="flex flex-col justify-center relative shrink-0">
         <p className="leading-[21px] text-nowrap whitespace-pre">12일 남음</p>
       </div>
@@ -251,7 +251,7 @@ function Unit3() {
 function List3() {
   return (
     <div className="box-border content-stretch flex gap-[16px] items-start px-[16px] py-0 relative shrink-0" data-name="list">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">4</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">4</p>
       <Unit3 />
     </div>
   );
@@ -260,15 +260,15 @@ function List3() {
 function Company4() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 text-[16px] text-nowrap whitespace-pre" data-name="company">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">펄어비스</p>
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">서비스 디자인 (웹기획)</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">펄어비스</p>
+      <p className="font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">서비스 디자인 (웹기획)</p>
     </div>
   );
 }
 
 function Info4() {
   return (
-    <div className="content-stretch flex font-['Pretendard_Variable:Regular',sans-serif] font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
+    <div className="content-stretch flex font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]" data-name="info">
       <div className="flex flex-col justify-center relative shrink-0">
         <p className="leading-[21px] text-nowrap whitespace-pre">11일 남음</p>
       </div>
@@ -291,7 +291,7 @@ function Unit4() {
 function List4() {
   return (
     <div className="box-border content-stretch flex gap-[16px] items-start px-[16px] py-0 relative shrink-0" data-name="list">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">5</p>
+      <p className="font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">5</p>
       <Unit4 />
     </div>
   );
@@ -312,7 +312,7 @@ function List5() {
 function SectionPopular() {
   return (
     <div className="bg-white box-border content-stretch flex flex-col gap-[16px] items-start pb-[28px] pt-[24px] px-[16px] relative shrink-0 w-[360px]" data-name="section_popular">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무별 인기 공고</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무별 인기 공고</p>
       <Tabs />
       <List5 />
     </div>
@@ -322,7 +322,7 @@ function SectionPopular() {
 function Header() {
   return (
     <div className="content-stretch flex gap-[60px] items-start relative shrink-0 w-[328px]" data-name="header">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">{`취준 미션을 수행해 보세요 🚩 `}</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">{`취준 미션을 수행해 보세요 🚩 `}</p>
     </div>
   );
 }
@@ -332,7 +332,7 @@ function Frame1() {
     <div className="relative shrink-0 w-full">
       <div className="flex flex-row items-center size-full">
         <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex items-center pl-[4px] pr-[8px] py-0 relative w-full">
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">진행 중인 미션 ⚡️</p>
+          <p className="font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">진행 중인 미션 ⚡️</p>
         </div>
       </div>
     </div>
@@ -343,8 +343,8 @@ function Frame2() {
   return (
     <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full whitespace-pre">
-        <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px]">{`면접, 이것만은 알고 가자!  `}</p>
-        <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">필수 면접 질문 200제</p>
+        <p className="font-bold leading-[19px] relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px]">{`면접, 이것만은 알고 가자!  `}</p>
+        <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">필수 면접 질문 200제</p>
       </div>
     </div>
   );
@@ -354,7 +354,7 @@ function Button() {
   return (
     <div className="bg-[#ff6813] h-[32px] relative rounded-[4px] shrink-0 w-[72px]" data-name="button">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex gap-[4px] h-[32px] items-center justify-center px-[8px] py-[7px] relative w-[72px]">
-        <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-nowrap text-white tracking-[0.12px]">
+        <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-nowrap text-white tracking-[0.12px]">
           <p className="leading-[18px] whitespace-pre">PDF 받기</p>
         </div>
       </div>
@@ -380,8 +380,8 @@ function Frame3() {
   return (
     <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full">
-        <p className="[white-space-collapse:collapse] font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`복잡한 국비지원 자격 진단 `}</p>
-        <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`30초 확인하기 `}</p>
+        <p className="[white-space-collapse:collapse] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`복잡한 국비지원 자격 진단 `}</p>
+        <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`30초 확인하기 `}</p>
       </div>
     </div>
   );
@@ -391,7 +391,7 @@ function Button1() {
   return (
     <div className="bg-[#ff6813] h-[32px] relative rounded-[4px] shrink-0 w-[72px]" data-name="button">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex gap-[4px] h-[32px] items-center justify-center px-[8px] py-[7px] relative w-[72px]">
-        <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-nowrap text-white tracking-[0.12px]">
+        <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-nowrap text-white tracking-[0.12px]">
           <p className="leading-[18px] whitespace-pre">{`30초 확인 `}</p>
         </div>
       </div>
@@ -448,7 +448,7 @@ function Button2() {
       <div className="flex flex-row items-center justify-center size-full">
         <div className="box-border content-stretch flex gap-[4px] h-[32px] items-center justify-center px-[8px] py-[7px] relative w-full">
           <FunctionIcNotification />
-          <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#ff6813] text-[12px] text-nowrap tracking-[0.12px]">
+          <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[#ff6813] text-[12px] text-nowrap tracking-[0.12px]">
             <p className="leading-[18px] whitespace-pre">{`다음 미션 알림받기 `}</p>
           </div>
         </div>
@@ -482,7 +482,7 @@ function Frame5() {
     <div className="relative shrink-0 w-full">
       <div className="size-full">
         <div className="box-border content-stretch flex flex-col gap-[2px] items-start px-[4px] py-0 relative w-full">
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">{`자소설 신청 혜택 · AD `}</p>
+          <p className="font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">{`자소설 신청 혜택 · AD `}</p>
         </div>
       </div>
     </div>
@@ -529,8 +529,8 @@ function Frame6() {
   return (
     <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full">
-        <p className="[white-space-collapse:collapse] font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`스파르타 상담 신청하고 `}</p>
-        <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`IT 취업 족보 받기 `}</p>
+        <p className="[white-space-collapse:collapse] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`스파르타 상담 신청하고 `}</p>
+        <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`IT 취업 족보 받기 `}</p>
       </div>
     </div>
   );
@@ -598,8 +598,8 @@ function Frame7() {
   return (
     <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full">
-        <p className="[white-space-collapse:collapse] font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`멋쟁이사자들 상담 신청하고 `}</p>
-        <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`네이버페이 받기 `}</p>
+        <p className="[white-space-collapse:collapse] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`멋쟁이사자들 상담 신청하고 `}</p>
+        <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`네이버페이 받기 `}</p>
       </div>
     </div>
   );
@@ -661,8 +661,8 @@ function Frame8() {
   return (
     <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full">
-        <p className="[white-space-collapse:collapse] font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`AII-IN-ONE! 합격패스 `}</p>
-        <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`전액 지원받기 `}</p>
+        <p className="[white-space-collapse:collapse] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">{`AII-IN-ONE! 합격패스 `}</p>
+        <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">{`전액 지원받기 `}</p>
       </div>
     </div>
   );
@@ -747,7 +747,7 @@ function Edu() {
 function Header1() {
   return (
     <div className="content-stretch flex gap-[60px] items-start relative shrink-0 w-[328px]" data-name="header">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무 교육관 🧑‍💻</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무 교육관 🧑‍💻</p>
     </div>
   );
 }
@@ -773,7 +773,7 @@ function SystemIcArrowRightLinear() {
 function Sub() {
   return (
     <div className="absolute content-stretch flex gap-[2px] items-center left-[8px] top-[113px]" data-name="sub">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">채용 우대 교육</p>
+      <p className="font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">채용 우대 교육</p>
       <SystemIcArrowRightLinear />
     </div>
   );
@@ -886,7 +886,7 @@ function Component() {
     <div className="bg-[#f9faff] relative rounded-[4px] shrink-0 size-[150px]" data-name="1">
       <div className="overflow-clip relative rounded-[inherit] size-[150px]">
         <Sub />
-        <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[87px] tracking-[0.24px] w-[136px]">취업 문턱을 낮춰주는</p>
+        <p className="absolute font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[87px] tracking-[0.24px] w-[136px]">취업 문턱을 낮춰주는</p>
         <IconlyGlassArrow />
       </div>
       <div aria-hidden="true" className="absolute border border-[#f4f5ff] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -915,7 +915,7 @@ function SystemIcArrowRightLinear1() {
 function Sub1() {
   return (
     <div className="absolute content-stretch flex gap-[2px] items-center left-[8px] top-[113px]" data-name="sub">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">웹개발 교육</p>
+      <p className="font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">웹개발 교육</p>
       <SystemIcArrowRightLinear1 />
     </div>
   );
@@ -1025,7 +1025,7 @@ function Component1() {
     <div className="bg-[#fff9f9] relative rounded-[4px] shrink-0 size-[150px]" data-name="2">
       <div className="overflow-clip relative rounded-[inherit] size-[150px]">
         <Sub1 />
-        <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[87px] tracking-[0.24px] w-[136px]">개발자로 변신하기</p>
+        <p className="absolute font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[87px] tracking-[0.24px] w-[136px]">개발자로 변신하기</p>
         <IconlyGlassDiscovery />
       </div>
       <div aria-hidden="true" className="absolute border border-[#fff3f4] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -1054,7 +1054,7 @@ function SystemIcArrowRightLinear2() {
 function Sub2() {
   return (
     <div className="absolute content-stretch flex gap-[2px] items-center left-[8px] top-[116px]" data-name="sub">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">무료 교육</p>
+      <p className="font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">무료 교육</p>
       <SystemIcArrowRightLinear2 />
     </div>
   );
@@ -1168,7 +1168,7 @@ function Component2() {
     <div className="bg-[#f6fbff] relative rounded-[4px] shrink-0 size-[150px]" data-name="3">
       <div className="overflow-clip relative rounded-[inherit] size-[150px]">
         <Sub2 />
-        <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[90px] tracking-[0.24px] w-[136px]">0원으로 스펙쌓기</p>
+        <p className="absolute font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[90px] tracking-[0.24px] w-[136px]">0원으로 스펙쌓기</p>
         <IconlyGlassDiscount />
       </div>
       <div aria-hidden="true" className="absolute border border-[#eef8ff] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -1197,7 +1197,7 @@ function SystemIcArrowRightLinear3() {
 function Sub3() {
   return (
     <div className="absolute content-stretch flex gap-[2px] items-center left-[8px] top-[116px]" data-name="sub">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">온라인 교육</p>
+      <p className="font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">온라인 교육</p>
       <SystemIcArrowRightLinear3 />
     </div>
   );
@@ -1253,7 +1253,7 @@ function Component3() {
     <div className="bg-[#fff6f0] relative rounded-[4px] shrink-0 size-[150px]" data-name="4">
       <div className="overflow-clip relative rounded-[inherit] size-[150px]">
         <Sub3 />
-        <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[90px] tracking-[0.24px] w-[136px]">집에서 커리어 성장</p>
+        <p className="absolute font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[90px] tracking-[0.24px] w-[136px]">집에서 커리어 성장</p>
         <Icons />
       </div>
       <div aria-hidden="true" className="absolute border border-[#ffe8db] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -1282,7 +1282,7 @@ function SystemIcArrowRightLinear4() {
 function Frame() {
   return (
     <div className="absolute content-stretch flex gap-[2px] items-center left-[8px] top-[116px]">
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">AI, 빅데이터</p>
+      <p className="font-normal leading-[21px] relative shrink-0 text-[#777777] text-[14px] text-nowrap tracking-[0.14px] whitespace-pre">AI, 빅데이터</p>
       <SystemIcArrowRightLinear4 />
     </div>
   );
@@ -1411,7 +1411,7 @@ function Component4() {
     <div className="bg-[#fdfaff] relative rounded-[4px] shrink-0 size-[150px]" data-name="5">
       <div className="overflow-clip relative rounded-[inherit] size-[150px]">
         <Frame />
-        <p className="absolute font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[90px] tracking-[0.24px] w-[136px]">고연봉 미래기술</p>
+        <p className="absolute font-bold leading-[22px] left-[calc(50%-67px)] text-[#333333] text-[16px] top-[90px] tracking-[0.24px] w-[136px]">고연봉 미래기술</p>
         <Icons1 />
       </div>
       <div aria-hidden="true" className="absolute border border-[#f5ebff] border-solid inset-0 pointer-events-none rounded-[4px]" />
@@ -1466,7 +1466,7 @@ function Menu() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbHomeActive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#333333] text-[11px] text-center text-nowrap whitespace-pre">홈</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#333333] text-[11px] text-center text-nowrap whitespace-pre">홈</p>
     </div>
   );
 }
@@ -1493,7 +1493,7 @@ function FunctionIcGnbRecruitsInactive() {
 function Title() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="title">
-      <p className="[grid-area:1_/_1] font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] ml-[19.5px] mt-0 relative text-[#bbbbbb] text-[11px] text-center text-nowrap translate-x-[-50%] whitespace-pre">채용공고</p>
+      <p className="[grid-area:1_/_1] font-normal leading-[17px] ml-[19.5px] mt-0 relative text-[#bbbbbb] text-[11px] text-center text-nowrap translate-x-[-50%] whitespace-pre">채용공고</p>
     </div>
   );
 }
@@ -1528,7 +1528,7 @@ function Menu2() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbDocumentsInactive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">자기소개서</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">자기소개서</p>
     </div>
   );
 }
@@ -1554,7 +1554,7 @@ function Menu3() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbChatInactive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채팅</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채팅</p>
     </div>
   );
 }
@@ -1575,7 +1575,7 @@ function Menu4() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbDatalabInactive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">데이터랩</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">데이터랩</p>
     </div>
   );
 }

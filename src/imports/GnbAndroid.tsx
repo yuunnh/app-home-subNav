@@ -16,7 +16,7 @@ function Menu() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbHomeActive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#333333] text-[11px] text-center text-nowrap whitespace-pre">홈</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#333333] text-[11px] text-center text-nowrap whitespace-pre">홈</p>
     </div>
   );
 }
@@ -43,7 +43,7 @@ function FunctionIcGnbRecruitsInactive() {
 function Title() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="title">
-      <p className="[grid-area:1_/_1] font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] ml-[19.5px] mt-0 relative text-[#bbbbbb] text-[11px] text-center text-nowrap translate-x-[-50%] whitespace-pre">채용공고</p>
+      <p className="[grid-area:1_/_1] font-normal leading-[17px] ml-[19.5px] mt-0 relative text-[#bbbbbb] text-[11px] text-center text-nowrap translate-x-[-50%] whitespace-pre">채용공고</p>
     </div>
   );
 }
@@ -78,7 +78,7 @@ function Menu2() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbDocumentsInactive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">자기소개서</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">자기소개서</p>
     </div>
   );
 }
@@ -104,7 +104,7 @@ function Menu3() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbChatInactive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채팅</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채팅</p>
     </div>
   );
 }
@@ -125,7 +125,7 @@ function Menu4() {
   return (
     <div className="basis-0 content-stretch flex flex-col gap-px grow h-[56px] items-center justify-center min-h-px min-w-px relative shrink-0" data-name="menu">
       <FunctionIcGnbDatalabInactive />
-      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">데이터랩</p>
+      <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">데이터랩</p>
     </div>
   );
 }

@@ -96,17 +96,17 @@ function MissionCard({ mission, index, onClick }: { mission: Mission; index: num
         <div className="box-border content-stretch flex gap-[12px] items-center px-[17px] py-[11px] relative w-full">
           <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
             <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full whitespace-pre">
-              <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px]">
+              <p className="font-bold leading-[19px] relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px]">
                 {mission.title}
               </p>
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">
                 {mission.subtitle}
               </p>
             </div>
           </div>
           <div className={`${isHovered ? 'bg-[#d64f00]' : 'bg-[#ff6813]'} h-[32px] relative rounded-[4px] shrink-0 w-[84px] transition-colors duration-200`}>
             <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex gap-[4px] h-[32px] items-center justify-center px-[8px] py-[7px] relative w-[84px]">
-              <div className="flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-nowrap text-white tracking-[0.12px]">
+              <div className="flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-center text-nowrap text-white tracking-[0.12px]">
                 <p className="leading-[18px] whitespace-pre">{mission.buttonText}</p>
               </div>
             </div>
@@ -146,10 +146,10 @@ function AdCard({ icon, title, subtitle, index, onClick }: { icon: JSX.Element; 
           </div>
           <div className="basis-0 grow min-h-px min-w-px relative shrink-0">
             <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex flex-col gap-[2px] items-start justify-center relative text-nowrap w-full">
-              <p className="[white-space-collapse:collapse] font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">
+              <p className="[white-space-collapse:collapse] font-bold leading-[19px] min-w-full overflow-ellipsis overflow-hidden relative shrink-0 text-[#333333] text-[14px] tracking-[0.21px] w-[min-content]">
                 {title}
               </p>
-              <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px] whitespace-pre">
                 {subtitle}
               </p>
             </div>
@@ -235,26 +235,26 @@ function SectionPopular() {
 
   return (
     <div className="bg-white box-border content-stretch flex flex-col gap-[16px] items-start pb-[28px] pt-[24px] px-[16px] relative shrink-0 w-[360px]">
-      <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무별 인기 공고</p>
+      <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무별 인기 공고</p>
       
       {/* Tabs */}
       <div className="content-stretch flex gap-[8px] items-start relative shrink-0 overflow-x-auto">
         <div className="bg-[#fff6f0] box-border content-stretch flex flex-col gap-[10px] h-[34px] items-start px-0 py-[7.5px] relative rounded-[4px] shrink-0">
           <div aria-hidden="true" className="absolute border border-[#fed2ba] border-solid inset-0 pointer-events-none rounded-[4px]" />
           <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0">
-            <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] text-[#555555] text-[14px] tracking-[0.14px] whitespace-pre">디자인</p>
+            <p className="font-normal leading-[21px] text-[#555555] text-[14px] tracking-[0.14px] whitespace-pre">디자인</p>
           </div>
         </div>
         <div className="bg-white box-border content-stretch flex flex-col gap-[10px] h-[34px] items-start pb-[5px] pt-[7px] px-0 relative rounded-[4px] shrink-0">
           <div aria-hidden="true" className="absolute border border-[#eeeeee] border-solid inset-0 pointer-events-none rounded-[4px]" />
           <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0">
-            <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] text-[#777777] text-[14px] tracking-[0.14px]">경영·사무</p>
+            <p className="font-normal leading-[21px] text-[#777777] text-[14px] tracking-[0.14px]">경영·사무</p>
           </div>
         </div>
         <div className="bg-white box-border content-stretch flex flex-col gap-[10px] h-[34px] items-start pb-[5px] pt-[7px] px-0 relative rounded-[4px] shrink-0">
           <div aria-hidden="true" className="absolute border border-[#eeeeee] border-solid inset-0 pointer-events-none rounded-[4px]" />
           <div className="box-border content-stretch flex flex-col h-[19px] items-center justify-center px-[8px] py-0 relative shrink-0">
-            <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[21px] text-[#777777] text-[14px] tracking-[0.14px]">마케팅·광고·홍보</p>
+            <p className="font-normal leading-[21px] text-[#777777] text-[14px] tracking-[0.14px]">마케팅·광고·홍보</p>
           </div>
         </div>
       </div>
@@ -263,13 +263,13 @@ function SectionPopular() {
       <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
         {jobs.map((job) => (
           <div key={job.rank} className="box-border content-stretch flex gap-[16px] items-start px-[16px] py-0 relative shrink-0">
-            <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">{job.rank}</p>
+            <p className="font-bold leading-[22px] relative shrink-0 text-[#999999] text-[16px] text-nowrap tracking-[0.24px] whitespace-pre">{job.rank}</p>
             <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0">
               <div className="content-stretch flex gap-[8px] items-center relative shrink-0 text-[16px] text-nowrap whitespace-pre">
-                <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">{job.company}</p>
-                <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">{job.position}</p>
+                <p className="font-bold leading-[22px] relative shrink-0 text-[#555555] tracking-[0.24px]">{job.company}</p>
+                <p className="font-normal leading-[24px] relative shrink-0 text-[#333333] tracking-[0.16px]">{job.position}</p>
               </div>
-              <div className="content-stretch flex font-['Pretendard_Variable:Regular',sans-serif] font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]">
+              <div className="content-stretch flex font-normal gap-[8px] items-center leading-[0] relative shrink-0 text-[#999999] text-[14px] text-nowrap tracking-[0.14px]">
                 <p className="leading-[21px] text-nowrap whitespace-pre">{job.daysLeft}</p>
                 <p className="leading-[21px] text-nowrap whitespace-pre">· {job.applicants}</p>
               </div>
@@ -289,7 +289,7 @@ function EducationSection() {
         <div className="box-border content-stretch flex flex-col gap-[16px] items-start pb-[32px] pt-[24px] relative w-full">
           {/* Header */}
           <div className="content-stretch flex gap-[60px] items-start relative shrink-0 px-[16px]" data-name="header">
-            <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무 교육관 🧑‍💻</p>
+            <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">직무 교육관 🧑‍💻</p>
           </div>
           
           {/* Banner - Horizontal Scroll Container */}
@@ -330,7 +330,7 @@ function BottomNav() {
               <path clipRule="evenodd" d={svgPathsGnb.p3cb67b00} fill="var(--fill-0, #333333)" fillRule="evenodd" />
             </svg>
           </div>
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#333333] text-[11px] text-center text-nowrap whitespace-pre">홈</p>
+          <p className="font-normal leading-[17px] relative shrink-0 text-[#333333] text-[11px] text-center text-nowrap whitespace-pre">홈</p>
         </div>
         
         {/* 채용공고 */}
@@ -345,7 +345,7 @@ function BottomNav() {
               <path d={svgPathsGnb.p157edd00} fill="var(--fill-0, #BBBBBB)" />
             </svg>
           </div>
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채용공고</p>
+          <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채용공고</p>
         </div>
         
         {/* 자기소개서 */}
@@ -358,7 +358,7 @@ function BottomNav() {
               <path clipRule="evenodd" d={svgPathsGnb.p149f4a00} fill="var(--fill-0, #BBBBBB)" fillRule="evenodd" />
             </svg>
           </div>
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">자기소개서</p>
+          <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">자기소개서</p>
         </div>
         
         {/* 채팅 */}
@@ -371,7 +371,7 @@ function BottomNav() {
               <path clipRule="evenodd" d={svgPathsGnb.p4b9a700} fill="var(--fill-0, #BBBBBB)" fillRule="evenodd" />
             </svg>
           </div>
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채팅</p>
+          <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">채팅</p>
         </div>
         
         {/* 데이터랩 */}
@@ -381,7 +381,7 @@ function BottomNav() {
               <path clipRule="evenodd" d={svgPathsGnb.p390bd780} fill="var(--fill-0, #BBBBBB)" fillRule="evenodd" />
             </svg>
           </div>
-          <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">데이터랩</p>
+          <p className="font-normal leading-[17px] relative shrink-0 text-[#bbbbbb] text-[11px] text-center text-nowrap whitespace-pre">데이터랩</p>
         </div>
       </div>
       
@@ -504,7 +504,7 @@ export default function App() {
                 transition={{ duration: 0.5 }}
                 className="content-stretch flex gap-[60px] items-start relative shrink-0 w-full"
               >
-                <p className="font-['Pretendard_Variable:Bold',sans-serif] font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">
+                <p className="font-bold leading-[25px] relative shrink-0 text-[#333333] text-[18px] text-nowrap tracking-[0.27px] whitespace-pre">
                   취준 미션을 수행해 보세요 🚩
                 </p>
               </motion.div>
@@ -520,7 +520,7 @@ export default function App() {
                 >
                   <div className="flex flex-row items-center size-full">
                     <div className="bg-clip-padding border-0 border-[transparent] border-solid box-border content-stretch flex items-center pl-[4px] pr-[8px] py-0 relative w-full">
-                      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">
+                      <p className="font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">
                         진행 중인 미션 ⚡️
                       </p>
                     </div>
@@ -609,7 +609,7 @@ export default function App() {
                               </svg>
                             </div>
                           )}
-                          <div className={`flex flex-col font-['Pretendard_Variable:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-nowrap tracking-[0.12px] transition-colors duration-300 ${
+                          <div className={`flex flex-col font-normal justify-center leading-[0] relative shrink-0 text-[12px] text-nowrap tracking-[0.12px] transition-colors duration-300 ${
                             isNotificationEnabled ? 'text-[#777777]' : 'text-[#ff6813]'
                           }`}>
                             <p className="leading-[18px] whitespace-pre">
@@ -633,7 +633,7 @@ export default function App() {
                 >
                   <div className="size-full">
                     <div className="box-border content-stretch flex flex-col gap-[2px] items-start px-[4px] py-0 relative w-full">
-                      <p className="font-['Pretendard_Variable:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">
+                      <p className="font-normal leading-[20px] relative shrink-0 text-[#999999] text-[13px] text-nowrap tracking-[0.13px] whitespace-pre">
                         자소설 신청 혜택 · AD
                       </p>
                     </div>
