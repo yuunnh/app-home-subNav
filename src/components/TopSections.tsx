@@ -51,7 +51,7 @@ function SubBanner() {
                 transition: { duration: 0.3, ease: "easeOut" }
               }}
             >
-              <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">👀 이 공고 어때요</p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">방금 본 광고 👀</p>
               <div className="content-stretch flex h-[20px] items-center justify-center px-[6px] relative rounded-[4px] shrink-0">
                 <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[4px]" />
                 <p className="font-normal leading-[18px] relative shrink-0 text-[#dddddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
@@ -128,8 +128,9 @@ function SubBanner() {
                 opacity: { duration: 0.3, delay: 0.1, ease: "easeOut" }
               }
             }}
-            className="content-stretch flex items-center justify-between pb-[4px] pt-[8px] px-[16px] relative shrink-0 w-[360px]"
+            className="content-stretch flex flex-col relative shrink-0 w-[360px]"
           >
+            <div className="flex items-center justify-between pb-[4px] pt-[8px] px-[16px] w-full">
             <motion.div
               className="content-stretch flex items-center gap-[8px] relative shrink-0"
               initial={{ opacity: 0 }}
@@ -147,8 +148,7 @@ function SubBanner() {
               </motion.div>
               {/* 텍스트 */}
               <div className="flex items-center gap-[8px]">
-                <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px]">신한은행</p>
-                <p className="font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px]">2024년 기술직 공개 채용</p>
+                <p className="font-normal leading-[19px] relative shrink-0 text-[#777] text-[12px] tracking-[0.12px]">방금 본 광고 👀</p>
               </div>
             </motion.div>
             {/* 로고 */}
@@ -162,6 +162,15 @@ function SubBanner() {
             >
               <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgLogo} />
             </motion.div>
+            </div>
+            {/* 디바이더 */}
+            <div className="h-0 relative shrink-0 w-[360px]">
+              <div className="absolute inset-[-1px_0_0_0]">
+                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 360 1">
+                  <line stroke="#F5F5F5" x2="360" y1="0.5" y2="0.5" />
+                </svg>
+              </div>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -169,35 +178,86 @@ function SubBanner() {
   );
 }
 
+const banners = [
+  {
+    bg: "#1b2239",
+    image: imgImg,
+    brand: "앵커리어",
+    titleLines: ["자소설닷컴", "디자인 직무 채용"],
+    infoLines: ["2023.02.28 ~ 2023.03.27", "#자소설닷컴 #프로덕트디자인"],
+  },
+  {
+    bg: "#1a3a2a",
+    image: imgImg,
+    brand: "잡코리아",
+    titleLines: ["삼성전자", "SW 개발 공채"],
+    infoLines: ["2023.03.01 ~ 2023.03.31", "#삼성전자 #SW개발"],
+  },
+  {
+    bg: "#2a1a3a",
+    image: imgImg,
+    brand: "사람인",
+    titleLines: ["현대자동차", "신입 공개채용"],
+    infoLines: ["2023.03.05 ~ 2023.04.01", "#현대자동차 #신입채용"],
+  },
+];
+
 function SectionAds() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % banners.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const banner = banners[currentIndex];
+
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-[360px]">
       {/* Banner */}
       <div className="h-[240px] relative shrink-0 w-[360px]">
-        <div className="absolute bg-[#1b2239] h-[240px] left-0 overflow-clip top-0 w-[360px] rounded-bl-[16px] rounded-br-[16px]">
+        <AnimatePresence>
+          <motion.div
+            key={currentIndex}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, transition: { duration: 0.5, ease: "easeInOut" } }}
+            exit={{ opacity: 0, transition: { duration: 0.3, ease: "easeOut" } }}
+            className="absolute h-[240px] left-0 overflow-clip top-0 w-[360px] rounded-bl-[16px] rounded-br-[16px]"
+            style={{ backgroundColor: banner.bg }}
+          >
           <div className="absolute h-[136px] left-[210px] opacity-92 top-[104px] w-[150px]">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[124.26%] left-[-0.06%] max-w-none top-0 w-[118.11%]" src={imgImg} />
+              <img alt="" className="absolute h-[124.26%] left-[-0.06%] max-w-none top-0 w-[118.11%]" src={banner.image} />
             </div>
           </div>
-          <div className="absolute h-[4px] left-[166px] top-[224px] w-[28px]">
-            <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 28 4">
-              <circle cx="2" cy="2" fill="#DDDDDD" r="2" />
-              <circle cx="10" cy="2" fill="#DDDDDD" r="2" />
-              <circle cx="18" cy="2" fill="#DDDDDD" r="2" />
-              <circle cx="26" cy="2" fill="#777777" r="2" />
-            </svg>
+          {/* 페이지 인디케이터 */}
+          <div className="absolute flex gap-[8px] items-center left-[166px] top-[224px]">
+            {banners.map((_, i) => (
+              <div
+                key={i}
+                className="rounded-full transition-all duration-300"
+                style={{
+                  width: 4, height: 4,
+                  backgroundColor: i === currentIndex ? "#777777" : "#DDDDDD",
+                }}
+              />
+            ))}
           </div>
-          <p className="absolute font-bold leading-[19px] left-[20px] text-white text-[14px] top-[80px] tracking-[0.21px]">앵커리어</p>
+          <p className="absolute font-bold leading-[19px] left-[20px] text-white text-[14px] top-[80px] tracking-[0.21px]">{banner.brand}</p>
           <div className="absolute font-bold leading-[0] left-[20px] text-white text-[20px] top-[103px] tracking-[0.3px]">
-            <p className="leading-[27px] mb-0">자소설닷컴</p>
-            <p className="leading-[27px]">디자인 직무 채용</p>
+            {banner.titleLines.map((line, i) => (
+              <p key={i} className={`leading-[27px]${i < banner.titleLines.length - 1 ? " mb-0" : ""}`}>{line}</p>
+            ))}
           </div>
           <div className="absolute font-normal leading-[0] left-[20px] text-white text-[13px] top-[169px] tracking-[0.13px]">
-            <p className="leading-[20px] mb-0">2023.02.28 ~ 2023.03.27</p>
-            <p className="leading-[20px]">#자소설닷컴 #프로덕트디자인</p>
+            {banner.infoLines.map((line, i) => (
+              <p key={i} className={`leading-[20px]${i < banner.infoLines.length - 1 ? " mb-0" : ""}`}>{line}</p>
+            ))}
           </div>
-        </div>
+          </motion.div>
+        </AnimatePresence>
         {/* Gradient overlay */}
         <div className="absolute h-[80px] left-0 top-0 w-[360px]">
           <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 360 80">
@@ -268,7 +328,7 @@ function SectionAds() {
       <SubBanner />
 
       {/* Horizontal pill list */}
-      <div className="flex gap-[8px] items-center overflow-x-auto pb-[8px] pt-[4px] px-[8px] relative shrink-0 w-[360px] bg-[#ffffff]" style={{ scrollbarWidth: 'none' }}>
+      <div className="flex gap-[8px] items-center overflow-x-auto pb-[8px] pt-[8px] px-[8px] relative shrink-0 w-[360px] bg-[#ffffff]" style={{ scrollbarWidth: 'none' }}>
         <div className="bg-gradient-to-r content-stretch flex from-[#fafafa] h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0 to-[#f5f5f5]">
           <div className="content-stretch flex gap-[4px] items-center overflow-clip relative rounded-[4px] shrink-0">
             <div className="bg-white content-stretch flex flex-col items-center justify-center overflow-clip p-[2px] relative rounded-[4px] shrink-0 size-[24px]">
@@ -330,44 +390,40 @@ function SectionAds() {
 
 function TopList() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[8px] items-start pt-[16px] relative shrink-0 w-full">
-      <div className="relative shrink-0 w-full">
-        <div className="flex flex-row items-center justify-center size-full">
-          <div className="content-stretch flex items-center justify-center px-[12px] relative size-full">
-            <p className="flex-[1_0_0] font-normal leading-[18px] min-w-px relative text-[#777] text-[12px] pl-[4px] pr-[0px] py-[0px]">{`👀 새로운 발견 `}</p>
-          </div>
-        </div>
+    <div className="bg-white content-stretch flex flex-col items-start pt-[24px] relative shrink-0 w-full">
+      <div className="content-stretch flex items-center justify-center px-[16px] relative shrink-0 w-full">
+        <p className="flex-[1_0_0] font-semibold leading-[19px] min-w-px relative text-[#555] text-[14px] tracking-[0.14px]">{`새로운 발견 ✨`}</p>
       </div>
-      <div className="flex gap-[8px] items-start overflow-x-auto px-[8px] relative shrink-0 w-full" style={{ scrollbarWidth: 'none' }}>
+      <div className="flex gap-[8px] items-center overflow-x-auto px-[12px] py-[8px] relative shrink-0 w-full" style={{ scrollbarWidth: 'none' }}>
         {/* 스낵 챗 발견 — 보라 */}
-        <div className="bg-[#F2F3FF] flex gap-[4px] items-center pt-[10px] pb-[10px] pl-[8px] pr-[20px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
-          <div className="bg-white flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
-            <img src="/src/assets/ic_swipeCard_default_fill.svg" width={20} height={20} alt="" />
+        <div className="bg-[#F2F3FF] flex gap-[4px] h-[36px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
+          <div className="flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
+            <div className="bg-white flex flex-col items-center justify-center overflow-clip p-[6px] relative rounded-[12px] shrink-0 size-[24px]">
+              <img src="/src/assets/ic_swipeCard_default_fill.svg" width={14} height={14} alt="" />
+            </div>
+            <p className="font-normal leading-[18px] relative shrink-0 text-[#333] text-[12px] tracking-[0.12px] whitespace-nowrap">스낵 챗 발견</p>
           </div>
-          <div className="flex flex-col pl-[4px]">
-            <p className="font-bold leading-[19px] text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">스낵 챗 발견</p>
-            <p className="font-normal leading-[17px] text-[#777] text-[12px] whitespace-nowrap">지금 무슨 얘기해?</p>
-          </div>
+          <svg className="shrink-0" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="#999" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
         </div>
         {/* AI 인기 토픽 — 핑크 */}
-        <div className="bg-[#FFF3F9] flex gap-[4px] items-center pt-[10px] pb-[10px] pl-[8px] pr-[20px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
-          <div className="bg-white flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
-            <img src="/src/assets/ic_robot_default_line.svg" width={20} height={20} alt="" />
+        <div className="bg-[#FFF3F9] flex gap-[4px] h-[36px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
+          <div className="flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
+            <div className="bg-white flex flex-col items-center justify-center overflow-clip p-[6px] relative rounded-[12px] shrink-0 size-[24px]">
+              <img src="/src/assets/ic_robot_default_line.svg" width={14} height={14} alt="" />
+            </div>
+            <p className="font-normal leading-[18px] relative shrink-0 text-[#333] text-[12px] tracking-[0.12px] whitespace-nowrap">AI 인기 토픽</p>
           </div>
-          <div className="flex flex-col pl-[4px]">
-            <p className="font-bold leading-[19px] text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">AI 인기 토픽</p>
-            <p className="font-normal leading-[17px] text-[#777] text-[12px] whitespace-nowrap">요즘 핫한 대화 주제</p>
-          </div>
+          <svg className="shrink-0" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="#999" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
         </div>
         {/* 채용달력 — 민트 */}
-        <div className="bg-[#DAF5F7] flex gap-[4px] items-center pt-[10px] pb-[10px] pl-[8px] pr-[20px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
-          <div className="bg-white flex items-center justify-center rounded-[18px] shrink-0 size-[36px]">
-            <img src="/src/assets/ic_recruit_default_line.svg" width={20} height={20} alt="" />
+        <div className="bg-[#DAF5F7] flex gap-[4px] h-[36px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
+          <div className="flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
+            <div className="bg-white flex flex-col items-center justify-center overflow-clip p-[6px] relative rounded-[12px] shrink-0 size-[24px]">
+              <img src="/src/assets/ic_recruit_default_line.svg" width={14} height={14} alt="" />
+            </div>
+            <p className="font-normal leading-[18px] relative shrink-0 text-[#333] text-[12px] tracking-[0.12px] whitespace-nowrap">채용달력</p>
           </div>
-          <div className="flex flex-col pl-[4px]">
-            <p className="font-bold leading-[19px] text-[#333] text-[14px] tracking-[0.14px] whitespace-nowrap">채용달력</p>
-            <p className="font-normal leading-[17px] text-[#777] text-[12px] whitespace-nowrap">방금 뜬 공고 일정</p>
-          </div>
+          <svg className="shrink-0" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="#999" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
         </div>
       </div>
     </div>
@@ -417,11 +473,11 @@ function SectionRecommand() {
   return (
     <div className="bg-white h-[607px] relative shrink-0 w-[360px]">
       {/* Title */}
-      <div className="absolute content-stretch flex items-start justify-between left-0 px-[16px] top-[24px] w-[360px]">
+      <div className="absolute content-stretch flex items-start justify-between left-0 px-[16px] top-[16px] w-[360px]">
         <div className="font-bold leading-[0] relative shrink-0 text-[#777] text-[0px] tracking-[0.27px] whitespace-nowrap">
           <p className="leading-[25px] text-[18px]">
-            <span className="text-[#333]">다재다능 스프링복 </span>
-            <span>님을 위한 🕵🏻‍♂️</span>
+            <span className="text-[#333]">다재다능 스프링복</span>
+            <span>님 맞춤공고 🕵🏻‍♂️</span>
           </p>
         </div>
         <div className="content-stretch flex h-[24px] items-center justify-center px-[8px] relative rounded-[4px] shrink-0">
