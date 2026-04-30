@@ -14,169 +14,6 @@ import { motion, AnimatePresence } from "motion/react";
 
 // ===== SectionAds (Banner + Ad Sub + QuickAccessNav) =====
 
-function SubBanner() {
-  const [isCollapsed, setIsCollapsed] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsCollapsed(true);
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    <div className="bg-white relative w-[360px] overflow-hidden">
-      <AnimatePresence mode="wait">
-        {!isCollapsed ? (
-          // 확장된 상태 (최초 2초)
-          <motion.div
-            key="expanded"
-            initial={{ height: "auto" }}
-            exit={{
-              height: 44,
-              opacity: 0,
-              transition: {
-                height: { duration: 0.4, ease: [0.4, 0, 0.2, 1] },
-                opacity: { duration: 0.3, ease: "easeOut" }
-              }
-            }}
-          >
-            {/* 이 공고 어때요 타이틀 */}
-            <motion.div
-              className="content-stretch flex items-center justify-between pb-[8px] pt-[12px] px-[16px] relative shrink-0 w-[360px]"
-              exit={{
-                y: -10,
-                opacity: 0,
-                transition: { duration: 0.3, ease: "easeOut" }
-              }}
-            >
-              <p className="font-normal leading-[18px] relative shrink-0 text-[#777777] text-[12px] tracking-[0.12px]">방금 본 광고 👀</p>
-              <div className="content-stretch flex h-[20px] items-center justify-center px-[6px] relative rounded-[4px] shrink-0">
-                <div aria-hidden="true" className="absolute border border-[#f5f5f5] border-solid inset-0 pointer-events-none rounded-[4px]" />
-                <p className="font-normal leading-[18px] relative shrink-0 text-[#dddddd] text-[12px] text-right tracking-[0.12px] whitespace-nowrap">AD</p>
-              </div>
-            </motion.div>
-
-            {/* Divider */}
-            <motion.div
-              className="h-0 relative shrink-0 w-[360px]"
-              exit={{
-                y: -10,
-                opacity: 0,
-                transition: { duration: 0.25, ease: "easeOut" }
-              }}
-            >
-              <div className="absolute bottom-full left-0 right-0 top-0">
-                <div className="absolute inset-[-1px_0_0_0]">
-                  <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 360 1">
-                    <line stroke="#F5F5F5" x2="360" y1="0.5" y2="0.5" />
-                  </svg>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* 신한은행 추천 */}
-            <motion.div
-              className="content-stretch flex items-center justify-between pb-[8px] pt-[8px] px-[16px] relative shrink-0 w-[360px] overflow-hidden"
-              exit={{
-                y: -20,
-                opacity: 0,
-                transition: { duration: 0.35, ease: "easeOut" }
-              }}
-            >
-              {/* Shimmer effect overlay */}
-              <motion.div
-                className="absolute inset-0 pointer-events-none z-10"
-                initial={{ x: "-100%" }}
-                animate={{
-                  x: "200%",
-                  transition: {
-                    duration: 1.5,
-                    repeat: Infinity,
-                    repeatDelay: 0.5,
-                    ease: "easeInOut"
-                  }
-                }}
-                style={{
-                  background: "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.9) 50%, transparent 100%)",
-                  width: "80%",
-                  transform: "skewX(-15deg)",
-                  filter: "blur(8px)"
-                }}
-              />
-
-              <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-[121px] z-0">
-                <p className="font-semibold leading-[19px] relative shrink-0 text-[#333] text-[14px] tracking-[0.14px] w-full">신한은행</p>
-                <p className="font-normal leading-[18px] relative shrink-0 text-[#777] text-[12px] w-full">2024년 기술직 공개 채용</p>
-              </div>
-              <div className="h-[54px] relative rounded-[8px] shrink-0 w-[72px] z-0">
-                <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgLogo} />
-              </div>
-            </motion.div>
-          </motion.div>
-        ) : (
-          // 축소된 상태 (2초 후)
-          <motion.div
-            key="collapsed"
-            initial={{ y: -20, opacity: 0 }}
-            animate={{
-              y: 0,
-              opacity: 1,
-              transition: {
-                y: { duration: 0.4, ease: [0.4, 0, 0.2, 1] },
-                opacity: { duration: 0.3, delay: 0.1, ease: "easeOut" }
-              }
-            }}
-            className="content-stretch flex flex-col relative shrink-0 w-[360px]"
-          >
-            <div className="flex items-center justify-between pb-[4px] pt-[8px] px-[16px] w-full">
-            <motion.div
-              className="content-stretch flex items-center gap-[8px] relative shrink-0"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1, transition: { duration: 0.6, delay: 0.1, ease: "easeOut" } }}
-            >
-              {/* 파란 점 */}
-              <motion.div
-                className="relative shrink-0 size-[6px]"
-                initial={{ scale: 0, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1, transition: { duration: 0.4, delay: 0.3, ease: "easeOut" } }}
-              >
-                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 6 6">
-                  <circle cx="3" cy="3" fill="#4A90E2" r="3" />
-                </svg>
-              </motion.div>
-              {/* 텍스트 */}
-              <div className="flex items-center gap-[8px]">
-                <p className="font-normal leading-[19px] relative shrink-0 text-[#777] text-[12px] tracking-[0.12px]">방금 본 광고 👀</p>
-              </div>
-            </motion.div>
-            {/* 로고 */}
-            <motion.div
-              className="h-[32px] relative rounded-[8px] shrink-0 w-[42px]"
-              initial={{ opacity: 0 }}
-              animate={{
-                opacity: 1,
-                transition: { duration: 0.5, delay: 0.2, ease: "easeOut" }
-              }}
-            >
-              <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[8px] size-full" src={imgLogo} />
-            </motion.div>
-            </div>
-            {/* 디바이더 */}
-            <div className="h-0 relative shrink-0 w-[360px]">
-              <div className="absolute inset-[-1px_0_0_0]">
-                <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 360 1">
-                  <line stroke="#F5F5F5" x2="360" y1="0.5" y2="0.5" />
-                </svg>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
-  );
-}
 
 const banners = [
   {
@@ -233,7 +70,7 @@ function SectionAds() {
             </div>
           </div>
           {/* 페이지 인디케이터 */}
-          <div className="absolute flex gap-[8px] items-center left-[166px] top-[224px]">
+          <div className="absolute flex gap-[4px] items-center left-[166px] top-[224px]">
             {banners.map((_, i) => (
               <div
                 key={i}
@@ -324,11 +161,27 @@ function SectionAds() {
         </div>
       </div>
 
-      {/* SubBanner - 서브배너 (이 공고 어때요 + 신한은행) */}
-      <SubBanner />
-
       {/* Horizontal pill list */}
-      <div className="flex gap-[8px] items-center overflow-x-auto pb-[8px] pt-[8px] px-[8px] relative shrink-0 w-[360px] bg-[#ffffff]" style={{ scrollbarWidth: 'none' }}>
+      <div className="flex gap-[8px] items-center overflow-x-auto pl-[12px] pr-[8px] py-[8px] relative shrink-0 w-[360px] bg-[#ffffff]" style={{ scrollbarWidth: 'none' }}>
+        {/* 방금 본 기업 칩 — 파란 테두리 */}
+        <motion.div
+          initial={{ width: 0, opacity: 0, marginRight: -8 }}
+          animate={{ width: "auto", opacity: 1, marginRight: 0 }}
+          transition={{ delay: 1, duration: 0.4, ease: "easeOut" }}
+          style={{ overflow: "hidden", flexShrink: 0 }}
+        >
+        <div className="bg-gradient-to-r from-white to-[#f9faff] border border-[#e7eafe] content-stretch flex h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0">
+          <div className="content-stretch flex gap-[4px] items-center overflow-clip relative rounded-[4px] shrink-0">
+            <div className="bg-white content-stretch flex flex-col items-center justify-center overflow-clip p-[2px] relative rounded-[4px] shrink-0 size-[24px]">
+              <img alt="" className="max-w-none object-contain pointer-events-none rounded-[2.667px]" style={{ height: 18, width: 24 }} src={imgLogo} />
+            </div>
+            <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">방금 본 기업 👀</p>
+            </div>
+          </div>
+        </div>
+        </motion.div>
+        {/* SK그룹 SKALA */}
         <div className="bg-gradient-to-r content-stretch flex from-[#fafafa] h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0 to-[#f5f5f5]">
           <div className="content-stretch flex gap-[4px] items-center overflow-clip relative rounded-[4px] shrink-0">
             <div className="bg-white content-stretch flex flex-col items-center justify-center overflow-clip p-[2px] relative rounded-[4px] shrink-0 size-[24px]">
@@ -344,6 +197,7 @@ function SectionAds() {
             </div>
           </div>
         </div>
+        {/* 기아 채용관 */}
         <div className="bg-gradient-to-l content-stretch flex from-[#f5f5f5] h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0 to-[#fafafa]">
           <div className="content-stretch flex gap-[4px] items-center overflow-clip relative rounded-[4px] shrink-0">
             <div className="bg-white relative rounded-[4px] shrink-0 size-[24px]">
@@ -359,27 +213,21 @@ function SectionAds() {
             </div>
           </div>
         </div>
+        {/* IT 신입 부트캠프 */}
         <div className="bg-gradient-to-l content-stretch flex from-[#f5f5f5] h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0 to-[#fafafa]">
           <div className="content-stretch flex items-center overflow-clip relative rounded-[4px] shrink-0">
             <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">{`IT 신입 부트캠프 `}</p>
+              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">IT 신입 부트캠프</p>
             </div>
           </div>
         </div>
-        <div className="bg-gradient-to-b content-stretch flex from-[#fafafa] h-[36px] items-center pl-[8px] pr-[12px] relative rounded-[4px] shrink-0 to-[#fafafa]">
-          <div className="content-stretch flex gap-[4px] items-center overflow-clip relative rounded-[4px] shrink-0">
-            <div className="bg-white relative rounded-[4px] shrink-0 size-[24px]">
-              <div className="content-stretch flex flex-col items-center justify-center overflow-clip p-[2px] relative rounded-[inherit] size-full">
-                <div className="aspect-[28/28] relative shrink-0 w-full">
-                  <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none size-full" src={imgLogo1} />
-                </div>
-              </div>
-              <div aria-hidden="true" className="absolute border-[#eee] border-[0.6px] border-solid inset-0 pointer-events-none rounded-[4px]" />
-            </div>
-            <div className="content-stretch flex items-center justify-center pl-[4px] relative shrink-0">
-              <p className="font-normal leading-[18px] relative shrink-0 text-[#555] text-[12px] whitespace-nowrap">CJ제일제당 </p>
-            </div>
-          </div>
+      </div>
+      {/* 하단 디바이더 */}
+      <div className="h-0 relative shrink-0 w-[360px]">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 360 1">
+            <line stroke="#F5F5F5" x2="360" y1="0.5" y2="0.5" />
+          </svg>
         </div>
       </div>
     </div>
@@ -394,7 +242,7 @@ function TopList() {
       <div className="content-stretch flex items-center justify-center px-[16px] relative shrink-0 w-full">
         <p className="flex-[1_0_0] font-semibold leading-[19px] min-w-px relative text-[#555] text-[14px] tracking-[0.14px]">{`새로운 발견 ✨`}</p>
       </div>
-      <div className="flex gap-[8px] items-center overflow-x-auto px-[12px] py-[8px] relative shrink-0 w-full" style={{ scrollbarWidth: 'none' }}>
+      <div className="flex gap-[8px] items-center overflow-x-auto px-[12px] pt-[8px] pb-[16px] relative shrink-0 w-full" style={{ scrollbarWidth: 'none' }}>
         {/* 스낵 챗 발견 — 보라 */}
         <div className="bg-[#F2F3FF] flex gap-[4px] h-[36px] items-center pl-[8px] pr-[10px] relative rounded-[6px] shrink-0 cursor-pointer hover:brightness-95 transition-all">
           <div className="flex gap-[6px] items-center overflow-clip relative rounded-[4px] shrink-0">
@@ -424,6 +272,14 @@ function TopList() {
             <p className="font-normal leading-[18px] relative shrink-0 text-[#333] text-[12px] tracking-[0.12px] whitespace-nowrap">채용달력</p>
           </div>
           <svg className="shrink-0" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4L10 8L6 12" stroke="#999" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+        </div>
+      </div>
+      {/* 하단 보더 */}
+      <div className="h-0 relative shrink-0 w-full">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 360 1">
+            <line stroke="#F5F5F5" x2="360" y1="0.5" y2="0.5" />
+          </svg>
         </div>
       </div>
     </div>
